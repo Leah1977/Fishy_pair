@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
 }
 
@@ -36,7 +35,7 @@ body {
      font-size: 58px;
      font-weight: 600;
      color:blueviolet;
-     display: left;
+     
      
  }
 
@@ -66,7 +65,7 @@ body {
 .card-img-top {
     height: 60px;
     width: 60px;
-    padding: 0 auto;
+    padding: 5px;
     margin: 0 auto;
 }
 
@@ -80,8 +79,7 @@ body {
 img {
     width: 100px;
 }
-
-.pairs-game {
+.pairs-gameboard {
     border: 4px solid turquoise;
     width: 640px;
     height: 640px;
@@ -92,7 +90,8 @@ img {
     
 }
 
-.card-front-face {
+.card-front-face, 
+.card-back-face {
     border: 4px solid rgba(64, 224, 208, 0.247);
     width: 100%;
     height: 100%;
@@ -101,39 +100,34 @@ img {
     border-radius: 7px;
     background-color: aquamarine;
     backface-visibility: hidden;
+    
+    
+
+}
+
+.card-front-face {
     transform: rotateY(180deg);
-    
-
 }
 
-.card-back-face {
-    border: 4px solid rgba(211, 64, 224, 0.247);
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    position: absolute;
-    border-radius: 7px;
-    background-color: aquamarine;
-    backface-visibility: hidden;
-}
     
-.pairs-card {
+.cards {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
     position: relative;
     margin: 5px;
     transform: scale(1);
-    transform-style: preserv-3d;
+    transform-style: preserve-3d;
     transition: transform .5s;
+    border: 3px solid navy;
 }
 
-.pairs-card:active {
+.cards:active {
     transform: scale(.95);
     transition: .3s;
 
 }
 
-.pairs-card.flip {
+.cards.flip {
     transform: rotateY(180deg);
 
 }
