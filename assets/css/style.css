@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  /* add border and padding to the element without changing the size */
 }
 
 body {
@@ -41,38 +41,93 @@ body {
 
 /* ---------------------------------------------Level Choices */
 
-.card { 
+.level-choice-card { 
  
-    border: 4px solid black;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     width: 80%;
-  
+    height: 150vh;
+}
+
+.level-option {
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    display: block;
+ }
+
+.btn {
+     width: 220px;
+     height: 60px;
+     font-family: "Rubik", sans-serif;
+     text-transform: capitalize;
+     letter-spacing: 1.2px;
+     color: white;
+ }
+
+.btn:focus {
+    outline: none;
+}
+
+
+.btn-big {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding-top: 10px;
+    margin: 0 20px;
+    border: 10px solid rgba(64, 224, 208, 0.247);
+    border-radius: 50%;
+    display: block;
+    font-size: 3.2rem;
+    transition: all 0.5s;
+    
+    
+ 
+}
+
+.btn-big::after {
+    font-family: "Eczar", sans-serif;
+    content: attr(data-type);
+    font-size: 1rem;
+    color: purple;
+    position: relative;
+    left: -0.1rem;
+}
+
+.btn-blue {
+    border-color: blue;
+    color: blue;
 
 }
 
-.card-body {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 2px;
+.btn-blue:active,
+.btn-blue:hover {
+    background-color: blue;
 }
 
-.card-title {
-    font-family:  "Eczar", sans-serif;
-    font-size: small;
+.btn-green {
+    border-color: green;
+    color: green;
+
 }
 
-.card-img-top {
-    height: 60px;
-    width: 60px;
-    padding: 5px;
-    margin: 0 auto;
+.btn-green:active,
+.btn-green:hover {
+    background-color: green;
 }
 
-.play-btn {
-    width: 80%;
-    font-size: small;
+.btn-red {
+    border-color: red;
+    color: red;
+
 }
+
+.btn-green:active,
+.btn-green:hover {
+    background-color: red;
+}
+
 
 /* ---------------------------------------------Game Cards */
 
@@ -86,7 +141,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    perspective: 1000px;
+    perspective: 1000px;   /* to allow the card to flip 3d */
     
 }
 
@@ -129,5 +184,13 @@ img {
 
 .cards.flip {
     transform: rotateY(180deg);
+
+}
+
+/* ---------------------------------------------Media Queries */
+
+@media (max-width: 320px) {
+
+   
 
 }
