@@ -9,7 +9,8 @@
 body {
     height: 100vh;     /* takes 100% of the screen space */
     background: aqua;
-    display: flex;
+    width: fit-content;
+    
 
 }
 
@@ -32,37 +33,50 @@ body {
 
  h1 {
      font-family: "Rubik", sans-serif;
-     font-size: 58px;
+     font-size: xx-large;
      font-weight: 600;
      color:blueviolet;
      
      
  }
 
-/* ---------------------------------------------Level Choices */
-
-.level-choice-card { 
- 
-    padding: 15px;
-    margin: 10px;
-    width: 80%;
-    height: 150vh;
-}
-
-.level-option {
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    display: block;
+ .play-btn {
+     color: blueviolet;
+     display: inline;
  }
 
+ .play-btn:focus {
+     color:rgba(64, 224, 208, 0.247);
+     
+ }
+
+/* ---------------------------------------------Level Choices */
+
+
+
+.level-option1,
+.level-option2,
+.level-option3 {
+    padding: 10px;
+    width: 33%;
+    height: 300px;
+    float: left;
+    border-radius: 5px;
+    border: 4px solid #555555;
+    margin: auto;
+
+    
+ }
+
+ 
+
 .btn {
-     width: 220px;
-     height: 60px;
+
      font-family: "Rubik", sans-serif;
      text-transform: capitalize;
      letter-spacing: 1.2px;
      color: white;
+   
  }
 
 .btn:focus {
@@ -70,63 +84,10 @@ body {
 }
 
 
-.btn-big {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    padding-top: 10px;
-    margin: 0 20px;
-    border: 10px solid rgba(64, 224, 208, 0.247);
-    border-radius: 50%;
-    display: block;
-    font-size: 3.2rem;
-    transition: all 0.5s;
-    
-    
- 
-}
 
-.btn-big::after {
-    font-family: "Eczar", sans-serif;
-    content: attr(data-type);
-    font-size: 1rem;
-    color: purple;
-    position: relative;
-    left: -0.1rem;
-}
 
-.btn-blue {
-    border-color: blue;
-    color: blue;
 
-}
 
-.btn-blue:active,
-.btn-blue:hover {
-    background-color: blue;
-}
-
-.btn-green {
-    border-color: green;
-    color: green;
-
-}
-
-.btn-green:active,
-.btn-green:hover {
-    background-color: green;
-}
-
-.btn-red {
-    border-color: red;
-    color: red;
-
-}
-
-.btn-green:active,
-.btn-green:hover {
-    background-color: red;
-}
 
 
 /* ---------------------------------------------Game Cards */
@@ -134,6 +95,7 @@ body {
 img {
     width: 100px;
 }
+
 .pairs-gameboard {
     border: 4px solid turquoise;
     width: 640px;
@@ -172,7 +134,7 @@ img {
     margin: 5px;
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform .5s;
+    transition: transform .2s;
     border: 3px solid navy;
 }
 
@@ -192,5 +154,30 @@ img {
 @media (max-width: 320px) {
 
    
+.level-option1,
+.level-option2, 
+.level-option3 {
+    padding: 5px;
+    width: 30%;
+    height: 200px;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #555555;
+    margin: 5px;
+
+    
+ }
+
+
+.card-img-top {
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+h5.card-title {
+    text-align: center;
+    font-size: small;
+}
 
 }

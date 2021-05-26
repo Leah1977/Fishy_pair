@@ -17,49 +17,106 @@
 </head>
 <body>
     <!-- heading with drop down selector -->
-    <div class = container-fluid>
+    <div class = "heading">
         <!-- name of game -->
         <h1>
            <img class = "logo" src="assets/images/fishypairslogo.png" alt="Fish logo image" style = "float: left;"> Fishy Pairs
         </h1>
         <!-- dropdown option for game options -->
         <div class="dropdown">
-          <a class="btn btn-secondary dropdown-toggle btn-options" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Options
           </a>
             
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="#">Home</a></li>
             <li><a class="dropdown-item" href="#">How to Play</a></li>
             <li><a class="dropdown-item" href="#">Contact Us</a></li>
           </ul>
         </div>
-      </div>
+      
+      <section>
+        <span>
+          <p>Welcome to our game</p>
+        </span>
+      </section>
     
             <!-- level 1 Easy --> 
-            <div class="card">
-              <img src="assets/images/smallgoldfish.jpg" class="card-img-top" alt="fish1">
-              <div class="card-body">
+            <div class="container">
+              <div class ="level-option1">
+                <img src="assets/images/smallgoldfish.jpg" class="card-img-top" alt="fish1">
                 <h5 class="card-title">Goldfish - Level 1</h5>
                 <a href="game.html" class="btn btn-primary play-btn">Play</a>
               </div>
-            </div>
+            
             <!-- level 2 Medium -->
-            <div class="card">
-              <img src="assets/images/yellowandbluestripe.jpg" class="card-img-top" alt="fish2">
-              <div class="card-body">
+              <div class="level-option2">
+                <img src="assets/images/yellowandbluestripe.jpg" class="card-img-top" alt="fish2">
                 <h5 class="card-title">Salmon - Level 2</h5>
                 <a href="#" class="btn btn-primary play-btn">Play</a>
               </div>
-            </div>
+            
             <!-- level 3 Difficult -->
-            <div class="card">
+            <div class="level-option3">
               <img src="assets/images/shark.jpg" class="card-img-top" alt="fish3">
               <div class="card-body">
                 <h5 class="card-title">Shark - Level 3</h5>
                 <a href="#" class="btn btn-primary play-btn">Play</a>
               </div>
             </div>
+
+             <!-- Game -->
+
+        <section class = "pairs-gameboard">
+          <div class = "cards" data-image="smallgoldfish">
+            <img class ="card-front-face" src= "assets/images/smallgoldfish.jpg" alt="smallgoldfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="smallgoldfish">
+            <img class ="card-front-face" src= "assets/images/smallgoldfish.jpg" alt="smallgoldfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="clownfish">
+            <img class ="card-front-face" src= "assets/images/clownfish.jpg" alt="clownfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="clownfish">
+            <img class ="card-front-face" src= "assets/images/clownfish.jpg" alt="clownfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="hammerheadshark">
+            <img class ="card-front-face" src= "assets/images/hammerheadshark.jpg" alt="hammerheadshark">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="hammerheadshark">
+            <img class ="card-front-face" src= "assets/images/hammerheadshark.jpg" alt="hammerheadshark">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="jellyfish">
+            <img class ="card-front-face" src= "assets/images/jellyfish.jpg" alt="jellyfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="jellyfish">
+            <img class ="card-front-face" src= "assets/images/jellyfish.jpg" alt="jellyfish">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="johndory">
+            <img class ="card-front-face" src= "assets/images/johndory.jpg" alt="johndory">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="johndory">
+            <img class ="card-front-face" src= "assets/images/johndory.jpg" alt="johndory">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image= "redandbluetail">
+            <img class ="card-front-face" src= "assets/images/redandbluetail.jpg" alt="redandbluetail">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>
+          <div class = "cards" data-image="redandbluetail">
+            <img class ="card-front-face" src= "assets/images/redandbluetail.jpg" alt="redandbluetail">
+            <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
+          </div>          
+        </section>
           
         
         

@@ -1,0 +1,53 @@
+[33mcommit 7d30ca7ffff5ce10d38146a947cc3007790a36b8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Tue May 25 19:48:43 2021 +0000
+
+    add styling for three buttons for level options 1, 2 & 3
+
+[33mcommit 6c235a38818fd055c2e7ea15681dcb061dd6de98[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Tue May 25 17:34:35 2021 +0000
+
+    add game board for Level 1
+
+[33mcommit f30118e13eb5ba2bc0ffa883de6c007eaa599919[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Mon May 24 22:15:06 2021 +0000
+
+    add images to images folder
+
+[33mcommit 8cce4c1b23d2f69be1da6108a866e24cb448d62f[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Sun May 23 20:39:01 2021 +0000
+
+    add level choices to homepage
+
+[33mcommit b9aa420f580574e9e372c6843625d001ba77612b[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Sat May 22 20:08:06 2021 +0000
+
+    add assets folder for css
+
+[33mcommit 0b88760de9cecd8b3a3595734f78f5a5b2d58367[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Sat May 22 18:49:23 2021 +0000
+
+    remove <style> from style.css
+
+[33mcommit 47965d614d6b5f3038f21abe4770cbcb660b7ca7[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Sat May 22 18:48:08 2021 +0000
+
+    add external link stylesheets for bootstrap, font-awesome, hover-min, fonts
+
+[33mcommit c0aa391f2831551edd5f1d2e6489792527ffe7b4[m
+Author: Leah1977 <lh020277@gmail.com>
+Date:   Sat May 22 18:19:26 2021 +0000
+
+    initial commit
+
+[33mcommit df21edf9fb2ea3e7f4b769347095f5c7a8baf82d[m
+Author: Leah1977 <76003527+Leah1977@users.noreply.github.com>
+Date:   Sat May 22 19:16:32 2021 +0100
+
+    Initial commit
