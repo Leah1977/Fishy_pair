@@ -16,6 +16,10 @@ body {
 
 /* ------------------------------------------------------ heading */
 
+#heading-style {
+    padding-bottom: 50px;
+}
+
 .logo {
     height: 100px;
     display: block;
@@ -52,19 +56,25 @@ body {
 
 /* ---------------------------------------------Level Choices */
 
+.level-container {
+    width:fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 
 
 .level-option1,
 .level-option2,
 .level-option3 {
-    padding: 10px;
-    width: 33%;
+    padding: 5px;
+    width: 30%;
     height: 300px;
     float: left;
     border-radius: 5px;
     border: 4px solid #555555;
-    margin: auto;
-
+    margin: 1%;
+    display: inline-flexbox;
     
  }
 
@@ -93,7 +103,7 @@ body {
 /* ---------------------------------------------Game Cards */
 
 img {
-    width: 100px;
+    width: 60px;
 }
 
 .pairs-gameboard {
@@ -103,6 +113,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding-top: 50px;
     perspective: 1000px;   /* to allow the card to flip 3d */
     
 }
