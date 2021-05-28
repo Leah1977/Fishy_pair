@@ -186,6 +186,16 @@ body {
     transform: rotateY(180deg);
 
 }
+/* ---------------------------------------------timer */
+
+div#gametimer {
+    font-size: xx-large;
+    font-family: 'Eczar' sans-serif;
+    color:rgba(64, 224, 208, 0.247);
+    display: block;
+    text-align: center;
+}
+
 
 /* ---------------------------------------------Media Queries */
 

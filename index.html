@@ -30,8 +30,8 @@
           </a>
             
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="#">How to Play</a></li>
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" data-toggle="modal" data-target="#instructionsmodal">How to Play</a></li>
             <li><a class="dropdown-item" href="#">Contact Us</a></li>
           </ul>
         </div>
@@ -62,8 +62,22 @@
                 <a href="#" class="btn btn-primary play-btn">Play</a>
               </div>
             </section>
+<!-- Audio for Game with optional on/off toggle -->
 
-             <!-- Game -->
+<section>
+  <div>
+      <audio id="gamesound">
+        <source src="assets/sounds/06 - Catch Dory.mp3"><i class="fa fa-volume-up" aria-hidden="true"></i>
+      </audio>
+    </div>
+</section>
+
+<section container-fluid>
+  <div id="gametimer">
+  </div>
+</section>
+
+<!-- Game -->
 
         <section class = "pairs-gameboard">
           <div class = "cards" data-image="smallgoldfish">
@@ -115,14 +129,34 @@
             <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
           </div>          
         </section>
-          
-        
-        
-    
-    <!-- opening line -->
-    <section></section>
-    <!-- select a difficulty level -->
-    <section></section>
+  
+<!-- How to Play Modal -->
+    <div class="modal" tabindex="-1" id="instructionsmodal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title">How to Play</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>The object of the game is to find all the pairs before the time runs out!</p>
+            <ol>
+              <li>Choose a level to begin.</li>
+              <li>Click on any card to start the game.</li>
+              <li>Click on another card to find a pair.</li>
+              <li>Use your memory to find all the pairs before the time runs out.</li>
+              <li>You have 60 seconds to find all the pairs.</li>
+              <li>If you would like to restart the game click on the restart button.</li>
+            </ol>
+            <p>Enjoy the game!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a class="modal-btn hvr-bounce-out" href="index.html">Select a level</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 

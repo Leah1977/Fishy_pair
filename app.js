@@ -4,6 +4,10 @@ let hasFlippedCard = false;
 let lockGameboard = false;
 let firstCard, secondCard;
 
+const sound = document.getElementById("gamesound");
+
+sound.muted = true;  // mute sound
+
 function flipCard() {
     //flip the card
     if(lockGameboard) return;
@@ -57,7 +61,7 @@ function unflipCards() {
         secondCard.classList.remove('flip')
 
         resetBoard()
-    }, 1500)
+    }, 1400)
     }
 
     function resetBoard(){
@@ -74,3 +78,26 @@ function unflipCards() {
     })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));   //flip the card when clicked
+
+
+// gametimer
+
+let remainingTime = 30;
+    let element = document.getElementById('gametimer');
+    let timer = setInterval(countdown, 1000); 
+    let restart = document.getElementsByClassName('pairs-gameboard')
+
+
+    function countdown() {
+        if (remainingTime == -1) {
+            clearTimeout(timer);
+            doSomething(restart);
+        } else {
+            element.innerHTML = remainingTime + '  seconds remaining';
+            remainingTime--; 
+        }
+        
+    }
+
+    let gamecomplete = true;
+
