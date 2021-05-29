@@ -165,7 +165,7 @@ div.modal-footer {
     width: 60px;
 }*/
 
-.pairs-gameboard {
+#pairs-gameboard {
     border: 4px solid turquoise;
     width: 640px;
     height: 640px;
@@ -223,7 +223,7 @@ div.modal-footer {
 div#gametimer {
     font-size: xx-large;
     font-family: 'Eczar' sans-serif;
-    color:rgba(64, 224, 208, 0.247);
+    color:#fafafa;
     display: block;
     text-align: center;
 }
