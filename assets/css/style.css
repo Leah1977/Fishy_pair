@@ -26,6 +26,7 @@ a:hover {
 
 #heading-style {
     padding-bottom: 50px;
+    
 }
 
 
@@ -224,6 +225,21 @@ div#gametimer {
     color:rgba(64, 224, 208, 0.247);
     display: block;
     text-align: center;
+}
+
+
+/* ---------------------------------------------contact-form */
+
+#game-form {
+
+    margin: 0 auto;
+
+}
+
+.contact-image {
+    width: 33%;
+    background-color: white;
+    display: inline-flex ;
 }
 
 
