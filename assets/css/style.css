@@ -20,13 +20,7 @@ body {
     padding-bottom: 50px;
 }
 
-.logo {
-    height: 100px;
-    width: 100px;
-    display: block;
-    margin: 10px;
-    
-}
+
 
 
 .btn-options {
@@ -43,15 +37,14 @@ body {
  }
 
  h1 {
-     font-family: "Rubik", sans-serif;
-     font-weight: 600;
-     color:blueviolet;
-     width: 90%;
-     text-align: center;
-     font-size: 5rem;
-     padding-top: 10px;
-     
-     
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    color: blueviolet;
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 20px;
+      
  }
 
  
