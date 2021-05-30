@@ -28,6 +28,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
 }
 
 h1 {
@@ -196,7 +197,7 @@ div.modal-footer {
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 3em;
+    margin: 0 auto;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
@@ -210,18 +211,23 @@ div.modal-footer {
     border: 4px solid rgba(64, 224, 208, 0.247);
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
-    border-radius: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aquamarine;
     backface-visibility: hidden;
-    
+    cursor: pointer;
+    box-shadow: 5px 2px 25px 0rgba(46, 61, 73, 0.5);
     
 
 }
 
 .card-front-face {
     transform: rotateY(180deg);
+    
 }
 
     
@@ -232,8 +238,8 @@ div.modal-footer {
     margin: 5px;
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform .2s;
-    border: 3px solid navy;
+    transition: transform .5s;
+    
 }
 
 .cards:active {
