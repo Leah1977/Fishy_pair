@@ -47,7 +47,7 @@
       <div class ="level-option1">
           <img src="assets/images/nemoglasses.jpg" class="card-img-top" alt="fish1">
           <h5 class="card-title">Nemo - Level 1</h5>
-          <a href="#pairs-gameboard" class="btn btn-primary play-btn">Play</a>
+          <a href="#pairs-gameboard" class="btn btn-primary play-btn" onclick = startGame()>Play</a>
       </div>
             
       <!-- level 2 Medium -->
@@ -61,7 +61,7 @@
       <div class="level-option3">
           <img src="assets/images/shark.gif" class="card-img-top" alt="fish3">
           <h5 class="card-title">Shark - Level 3</h5>
-          <a href="#" class="btn btn-primary play-btn">Play</a>
+          <a href="#" class="btn btn-primary play-btn" onclick = startGame()>Play</a>
       </div>
     </section>
 
@@ -77,12 +77,12 @@
 
 <section class = "score-panel">
   <div id="gametimer">
-    <h1>Time Remaining: <span id = "timer">30</span> Seconds!</h1>
+    <h2>Time Remaining: <span id = "timer">30</span> Seconds!</h2>
   </div>
 
   <span class = "moves">0</span> Move(s)
 
-  <div class = "resart" onclick = startGame() >
+  <div class = "restart" onclick = startGame() >
     <i class = "fa fa-repeat"></i>
   </div>
 </section>
