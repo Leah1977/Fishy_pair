@@ -31,7 +31,6 @@ a:hover {
 
 
 
-
 .btn-options {
     font-family: "Rubik", sans-serif;
     font-size: small;
@@ -59,7 +58,7 @@ a:hover {
 /* ------------------------------------------------------ dropdown */
 
 .dropdown {
-    position: absolute;
+    position: relative;
     padding-top: 30px;
     padding-left: 20px;
 }
@@ -104,6 +103,25 @@ div.modal-footer {
  .btn-info:hover {
      color: aqua;
  }
+
+ /* ------------------------------------------------------ background-image*/
+
+ @media screen and (max-width: 1393px)
+ #hero-image {
+     margin: 0 auto;
+     height: 1100px;
+     width: 100%;
+ }
+ #hero-image {
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+     background: no-repeat center center;
+     height: 760px;
+     width: 100%;
+ }
+
+ 
 
 /* ---------------------------------------------Level Choices */
 
