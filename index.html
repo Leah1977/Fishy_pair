@@ -19,55 +19,52 @@
 
     <!-- heading with drop down selector -->
     <div class = "container heading">
+      <!-- name of game -->
       <header>
-        <!-- name of game -->
         <h1>
           Fishy Pairs
-       </h1>
+        </h1>
       </header>
-        
-        
-       
-        <!-- dropdown option for game options -->
-        
+    
+
+      <!-- dropdown option for game options -->  
+      <section class = "dropdown-options">  
         <div class="dropdown">
           <a class="btn btn-info dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Options
           </a>
-            
+          <!-- dropdown menu -->  
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="index.html">Home</a></li>
             <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#instructionsmodal">How to Play</a></li>
             <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
           </ul>
         </div>
-    </div>
-
+      </section>
       
-
+    <section class ="level-options">
+      <!-- level 1 Easy --> 
+      <div class ="level-option1">
+          <img src="assets/images/nemoglasses.jpg" class="card-img-top" alt="fish1">
+          <h5 class="card-title">Nemo - Level 1</h5>
+          <a href="#pairs-gameboard" class="btn btn-primary play-btn">Play</a>
+      </div>
+            
+      <!-- level 2 Medium -->
+      <div class="level-option2">
+          <img src="assets/images/turtle.gif" class="card-img-top" alt="fish2">
+          <h5 class="card-title">Turtle - Level 2</h5>
+          <a href="#" class="btn btn-primary play-btn" onclick = "mediumLevel()">Play</a>
+      </div>
+            
+      <!-- level 3 Difficult -->
+      <div class="level-option3">
+          <img src="assets/images/shark.gif" class="card-img-top" alt="fish3">
+          <h5 class="card-title">Shark - Level 3</h5>
+          <a href="#" class="btn btn-primary play-btn">Play</a>
+      </div>
+    </section>
     
-            <!-- level 1 Easy --> 
-            <section class="level-container" style="padding-bottom: 50px;">
-              <div class ="level-option1">
-                <img src="assets/images/nemoglasses.jpg" class="card-img-top" alt="fish1">
-                <h5 class="card-title">Nemo - Level 1</h5>
-                <a href="#pairs-gameboard" class="btn btn-primary play-btn">Play</a>
-              </div>
-            
-            <!-- level 2 Medium -->
-              <div class="level-option2">
-                <img src="assets/images/turtle.gif" class="card-img-top" alt="fish2">
-                <h5 class="card-title">Turtle - Level 2</h5>
-                <a href="#" class="btn btn-primary play-btn" onclick = "mediumLevel()">Play</a>
-              </div>
-            
-            <!-- level 3 Difficult -->
-              <div class="level-option3">
-                <img src="assets/images/shark.gif" class="card-img-top" alt="fish3">
-                <h5 class="card-title">Shark - Level 3</h5>
-                <a href="#" class="btn btn-primary play-btn">Play</a>
-              </div>
-            </section>
 <!-- Audio for Game with optional on/off toggle -->
 
 <section>
