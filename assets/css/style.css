@@ -22,14 +22,30 @@ a {
 a:hover {
     color: #e9ecef;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    color: blueviolet;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
 /* ------------------------------------------------------ heading */
 
 #heading-style {
     padding-bottom: 50px;
     
 }
-
-
 
 .btn-options {
     font-family: "Rubik", sans-serif;
@@ -44,18 +60,7 @@ a:hover {
 
  }
 
- h1 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 600;
-    color: blueviolet;
-    width: 100%;
-    text-align: center;
-    font-size: 5rem;
-    padding-top: 20px;
-      
- }
-
-/* ------------------------------------------------------ dropdown */
+ /* ------------------------------------------------------ dropdown */
 
 .dropdown {
     position: relative;
@@ -184,13 +189,18 @@ div.modal-footer {
 }*/
 
 #pairs-gameboard {
-    border: 4px solid turquoise;
-    width: 640px;
+    border: 4px solid navy;
+    border-radius: 5px;
+    box-shadow: 8px 9px 29px 0rgba(46, 61, 73, 1);
+    width: 90%;
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    padding-top: 50px;
+    margin: 0 0 3em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background:rgba(137, 43, 226, 0.438);
     perspective: 1000px;   /* to allow the card to flip 3d */
     
 }
