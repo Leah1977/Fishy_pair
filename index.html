@@ -64,7 +64,7 @@
           <a href="#" class="btn btn-primary play-btn">Play</a>
       </div>
     </section>
-    
+
 <!-- Audio for Game with optional on/off toggle -->
 
 <section>
@@ -75,9 +75,15 @@
     </div>
 </section>
 
-<section container-fluid>
+<section class = "score-panel">
   <div id="gametimer">
     <h1>Time Remaining: <span id = "timer">30</span> Seconds!</h1>
+  </div>
+
+  <span class = "moves">0</span> Move(s)
+
+  <div class = "resart" onclick = startGame() >
+    <i class = "fa fa-repeat"></i>
   </div>
 </section>
 
