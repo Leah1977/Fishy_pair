@@ -298,6 +298,53 @@ div.modal-footer {
     
 }
 
+/* ---------------------------------------------------------Footer */
+
+footer {
+    background-color: aqua;
+    color: blueviolet;
+    margin: 0;
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.social-header {
+    color:rgb(95, 18, 168);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.social-links {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.social-links li a i {
+    background: #0e2bcf7c;
+    border-radius: 50%;
+    color: #fafafa;
+    font-size: 13px;
+    height: 32px;
+    line-height: 10px;
+    margin: 15%;
+    padding: 12px 0;
+    text-align: center;
+    width: 32px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: blueviolet;
+}
+
 
 
 
