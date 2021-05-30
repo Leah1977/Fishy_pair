@@ -254,14 +254,31 @@ div.modal-footer {
 }
 /* ---------------------------------------------timer */
 
-div#gametimer {
-    font-size: xx-large;
+#gametimer {
+    font-size: 6rem;
     font-family: 'Eczar' sans-serif;
-    color:#fafafa;
-    display: block;
+    color: blueviolet;
+    display: inline-block;
     text-align: center;
+    margin: 0 1rem;
 }
 
+.score-panel {
+    margin: 0 1rem;
+    font-size: 2.5rem;
+    font-family: 'Eczar' sans-serif;
+    color: blueviolet;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+    margin: 0 2rem;
+}
 
 /* ---------------------------------------------contact-form */
 
