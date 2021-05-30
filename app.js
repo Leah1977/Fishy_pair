@@ -79,6 +79,38 @@ function unflipCards() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));   //flip the card when clicked
 
+
+// start game function
+
+// declaring a move
+
+let moves = 0;
+let counter = document.querySelector(".moves");
+
+console.log(moves);
+
+// count players moves
+
+function moveCounter() {
+  moves++;
+  counter.innerHTML = moves;
+
+  //start timer on first click
+
+  if(moves == 1) {
+    second = 30;
+    startTimer();
+
+  }
+}
+
+// to restart the game with the restart icon
+
+
+
+
+
+
 // level 2 option
 
 function mediumLevel() {
