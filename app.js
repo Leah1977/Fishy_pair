@@ -17,9 +17,29 @@ class fishyPairs {
     this.busy = true;
     setTimeout (() => {
       this.shuffle(this.cardsArray);
-
-    })
+      this.countDown = this.startCountDown();
+      this.busy = false;
+    }, 500)
+    this.hideCards();
+    this.timer.innerHTML = this.timeRemaining;
+    this.moves.innerHTML = this.totalClicks;
+   
   }
+
+  function startCountDown() {
+    return setInterval(() => {
+      this.timeRemaining--;
+      this.timer.innerHTML = this.timeRemaining;
+      if (this.timeRemaining === 0)
+        this.gameOver();
+    }, 1000);
+  }
+
+  function gameOver() {
+    clearInterval (this.countDown);
+    document.getElementById('game-over-text').classList.add('visible');
+  }
+   
 
   function canFlipCard(_cards) {
     return !this.busy && !this.matchedCards.includes(card) && card !==
