@@ -9,38 +9,42 @@ class fishyPairs {
   }
 }
 
-  startGame() {
+  function startGame() {
     this.totalClicks = 0;
     this.timeRemaining = this.totalTime; //time will reset each new game
     this.cardToCheck = null;
     this.matchedCards = [];
     this.busy = true;
     setTimeout (() => {
-      this.shuffleCards(this.cardsArray);
+      this.shuffle(this.cardsArray);
 
     })
   }
 
-  canFlipCard(cards) {
-    return true;
+  function canFlipCard(_cards) {
+    return !this.busy && !this.matchedCards.includes(card) && card !==
+    this.cardToCheck;
   }
 
 
 
-  shuffle(cardsArray) {
-    for (let i = .cardsArray.length - 1; 1> 0; i --) {
+
+// Used Fisher-Yates Shuffle Algorithm Wikipedia
+  function shuffle(cardsArray) {   
+    for (let i = this.cardsArray.length - 1; 1> 0; i --) {
       let randomIndex = Math.floor(Math.random() * (i + 1));
       cardsArray[randomIndex].style.order = i;
       cardsArray[i].style.order = randomIndex;
     }
-}
 
-
+  }
+console.log(shuffle);
+  
 
 
 if (document.readyState == 'loading') {              
   // if the page hasn't loaded display "loading"
-  document.addEventListener('DOMContentLoaded, ready');  
+  document.addEventListener('DOMContentLoaded', ready);  
 } else {
     ready();
 }
