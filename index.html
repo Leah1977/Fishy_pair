@@ -85,18 +85,19 @@
     </div>
 </section>
 
-<section class = "score-panel">
-  <div id="gametimer">
-    <h2>Time Remaining: <span id = "timer">30</span> Seconds!</h2>
+<section class = "game-container">
+  <div class = "score-panel-container">
+    <div class ="score-panel">
+      Time Remaining: <span id = "timer">60</span> Seconds!
+    </div>
+    <div class ="score-panel">
+      <span id = "moves">0</span> Move(s)
+    </div>
+    <div class = "score-panel" onclick = startGame()>
+      <span id = "restart"><i class = "fa fa-repeat"></i></span>
+    </div>
   </div>
-
-  <span class = "moves">0</span> Move(s)
-
-  <div class = "restart" onclick = startGame()>
-    <i class = "fa fa-repeat"></i>
-  </div>
-</section>
-
+ 
 <!-- Game -->
 
         <div id = "pairs-gameboard">
@@ -149,6 +150,7 @@
             <img class ="card-back-face" src="assets/images/fishpairscardname.png" alt="fish logo">
           </div>          
         </div>
+</section>
   
 <!-- How to Play Modal -->
     <div class="modal" tabindex="-1" id="instructionsmodal">
