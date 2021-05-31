@@ -9,9 +9,6 @@
 body {
     height: 100vh;     /* takes 100% of the screen space */
     background: aqua;
-    width: fit-content;
-    
-
 }
 
 a {
@@ -199,7 +196,7 @@ div.modal-footer {
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 60px auto;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
@@ -254,7 +251,14 @@ div.modal-footer {
     transform: rotateY(180deg);
 
 }
-/* ---------------------------------------------timer */
+
+/* ---------------------------------------------Score Panel */
+
+.score-panel-container {
+    grid-column: 1 / -1;  /* to ensure the score panel takes up the whole row */
+    display: flex;
+    justify-content: center;
+ }
 
 #gametimer {
     font-size: 6rem;
@@ -266,13 +270,12 @@ div.modal-footer {
 }
 
 .score-panel {
-    margin: 0 1rem;
-    font-size: 2.5rem;
+   
+    font-size: 3em;
     font-family: 'Eczar' sans-serif;
+    font-weight: 500;
     color: blueviolet;
-    display: inline-block;
-    text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 }
 
