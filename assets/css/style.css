@@ -31,17 +31,18 @@ a:hover {
   
 }
 
-h1 {
+
+/* ------------------------------------------------------ heading */
+
+.game-title {
     font-family: "Rubik", sans-serif;
     font-weight: 600;
     color: blueviolet;
     width: 100%;
     text-align: center;
-    font-size: 4rem;
-    padding-top: 20px;
+    font-size: 8em;
+    padding-top: 10px;
 }
-
-/* ------------------------------------------------------ heading */
 
 #heading-style {
     padding-bottom: 50px;
@@ -55,11 +56,11 @@ h1 {
     color: blue;
  }
 
- .game-title {
+ /* .game-title {
      background-color: cornflowerblue;
      width: 50%;
 
- }
+ } */
 
  /* ------------------------------------------------------ dropdown */
 
@@ -112,12 +113,13 @@ div.modal-footer {
 
  /* ------------------------------------------------------ background-image*/
 
- @media screen and (max-width: 1393px)
+ @media screen and (max-width: 1393px) {
  #hero-image {
      margin: 0 auto;
      height: 1100px;
      width: 100%;
  }
+
  #hero-image {
      animation-name: hero-zoom;
      animation-duration: 5s;
@@ -128,7 +130,7 @@ div.modal-footer {
  }
 
  
-
+ }
 /* ---------------------------------------------Level Choices */
 
 .level-container {
