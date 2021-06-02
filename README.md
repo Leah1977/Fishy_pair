@@ -1,59 +1,300 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 2 - Fish Pairs Game //decide on a name//
 
-Welcome Leah1977,
+### Click here for a link to the live project on GitHub [Project Name](https://leah1977.github.io/fishyPairs_MS2/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is a User Centric Frontend Development Project for Milestone 2.
 
-## Gitpod Reminders
+The project features an interactive matching game.  Users can choose from three levels. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The game is targeting individual game play for users to have fun and race against the clock to get the pairservices.
 
-`python3 -m http.server`
+## Table of Contents.
 
-A blue button should appear to click: _Make Public_,
+1.  [Introduction](#introduction)
+2.  [UX](#ux)
+    - [Project-Goals](#project-goals)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Skeleton](#skeleton)
+    - [Features](#features)
+    - [Design](#design)
+3.  [Project-Display](#project-display)
+4.  [Technologies](#technologies)
+5.  [Testing](#testing)
+6.  [Debugging](#testing)
+7.  [Deployment](#deployment)
+8.  [Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Introduction
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Welcome!
 
-To log into the Heroku toolbelt CLI:
+### This site was built using [GitHub Pages](https://pages.github.com/)/.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I have created a mobile first project
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+FISHY PAIRS
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+My project is all about having fun while reinforcing some early learning skills to improve the cognitive development of a young child.
+Fish pairs is a memory game.  It is aimed to encourage children to improve their memory recall while having fun, while also learning some interesting fish facts.
+The game will increase in difficulty as the child progresses through the levels.
+There will be an option to take a quiz for bonus points on completion of each level.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### What value does it provide to its users
+This game encourages the cognitive development of young children.
+Improving memory skills.
+It provides a fun platform  for learning.
+The game is designed for short sessions of game play in which the child can interact with a game  while learning.
+e.g.Have fun and enjoy playing the game, educational value, memory skills etc.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### What value does it provide to the site owner – enjoy playing the game myself with family. Two player option??
+It is  a way to interact with young children and lead on to independent play as the child progresses.
+The game can be enjoyed as an adult with a young child as  the fun creative element will promote engagement.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Here is a demonstrating of how my website looks on different screensizes using [Am I Responsive Website](http://ami.responsivedesign.is/)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Am I responsive](assets/images/responsivedesignms1.png)
+This should display different pages on different screen sizes.
 
 ---
+#### This project will include four separate pages.  
 
-Happy coding!
+* Home page
+* How to play page with pop up feedback “well done” “better luck next time”
+* Sign up Form
+* 404 page which should have a link back to the home page without using browser navigation.
+
+## Home page
+### The home page is made up of a header.  The header includes a button to enter game play.
+
+### There is a navigational bar with working links.   This will appear the home page, the game play, sign up form and how to play section.
+Include screen shot of the navigation bar here.
+
+
+### The home page includes a button.  The button is responsive to encourage the customer to focus and engage with it.  The text box displays a Start button in blue to draw the customers eye again.
+
+## How to Play Page
+
+### The  How to Play  page has a list of clear instructions on how to play the game. 
+ 
+* Choose a level
+* Enter your name.
+* Save your score.
+* Cancel the game.
+* Restart.
+
+## Game section.
+Once the player chooses a level, they are brought to the game section.  Here there will be a set number of cards displaying face down and of identical appearance.
+There will be a timer at the top and a start button over the cards.
+Once the player clicks on the start button the timer will start.  There will be a set time to play the game depending on difficulty level.
+The player must choose two cards
+ – 
+if they match – there will be a response of well done, choose another two cards.
+If they do not match the cards will return to face down and the player will be encouraged to try again.
+If all the cards are matched before the time runs out the player will be congratulated.  If they are in the top 10 they will be asked to enter their initials on a leaderboard.
+If some of the cards are left unmatched they will be encouraged to play again.
+
+There will be an option to click on a winning pair to find out some information about the fish on the card.
+At the end of the round there will be an optional choice question for bonus points.
+If the player chooses correctly they will get an extra point.
+If the player chooses incorrectly they will not get an extra point.
+The player will then be asked if the they would like to play again or return to the home menu.
+Include a screenshot of the game play here.
+
+
+## Sign up Form
+
+This page will allow the player to sign up for further information on updates for our game application.
+Include a screenshot of the sign up form here.
+You could include a link to the file page here for the form.
+
+### The sign up form is to register with our site to be notified of further games or updates
+.
+
+### Contact and address information for the company.
+## Features left to implement
+I would like to include a section to become a member of our fish pairs club.
+
+## Design:
+
+## Design:
+
+
+## UX
+
+## Skeleton:
+---
+
+### I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
+
+### Click here for a link to the Wireframes [Balsamique Fishy_Pairs](assets/wireframes)
+
+![Desktop Image](assets/images/wireframems1desktop.png)
+![Mobile Image](assets/images/wireframems1mobile.png)
+
+## Project Goals.
+
+### This project provides an interactive matching game.  Intended for enjoyment.
+
+### To engage with the user for a set amount of time.
+### To provide the user with three level options.
+### To allow the user to enter their initials for the leaderboard top 10. 
+### To allow the user to exit the game at any stage.
+### To allow the user to restart the game.
+### To allow the user to opt in or out for volume.
+
+## Strategy
+---
+
+### This website is for users looking to interact with a matching game.	
+### I want to provide a game with different levels.
+### I want the instructions to be easy to follow.
+### I want the user to navigate the site with ease.
+
+* Would you find this game easy to understand?
+* Would you like sound when playing?
+* Would you like to see your score?
+* Would you like to choose the timer length?
+* Would you like to record your score?
+* How long do you think you would like the game to last?
+
+
+## User Story 1
+
+### What I expect to find on a matching game?
+ 
+1. I expect to be able to navigate around the game with ease.
+2. I expect to be able to choose my level of play.
+3. Since this is an interactive game, I expect to be able to click on a card and for the image to turn over to display a picture.  
+4. Can I restart the game during play? I would like to be able to change levels, restart the game or quit at any stage.
+
+## User Story 2
+
+### As a website user, I want a game to challenge me.  I would expect to be able to choose my level of difficulty and for the game play to match the level.
+
+### What I expect to find on a web application game.
+
+1. Does it increase with difficulty as I progress throught the game?
+2. Will the game congratulate me?
+3. What do other customers say about them.
+
+
+
+
+### With these user stories in mind, I put together some wireframes.  I included all the main requirements and issues that were raised from my user story research.
+
+
+## Scope
+
+### Essentials will include
+
+*	Levels
+*	Start button
+*   Restart button
+*	Exit button
+*   Timer
+*   Leaderboard
+*   sound on/off selector
+	you completed the game announcement/modal
+## Features
+---
+#### This project will include four separate pages.  
+
+* Home page
+* How to play page with pop up feedback “well done” “better luck next time”
+* Sign up Form
+
+
+
+
+## Color Scheme
+
+### I will use the colors in the main body, header and footer
+
+![Color Scheme](assets/images/colorsms1.png)
+
+My main primary color will be blue.  I will use variations of this color to add designs that stand out and appeal to the user.
+
+
+I used [Coolers](http://www.coolers.co) to generate my colours for the project. I then used variations within the project.
+
+## Typography
+
+### I will use the following fonts throughout the website for consistency in style.
+
+ * Eczar
+ * Rubik
+ * Sans Serif as a back up
+
+## Additional Features
+
+
+## Project Display
+---
+
+### This project is responsive to appear on different screen sizes.
+### The display changes to accomodate smaller screensize. 
+### This project is specifically designed to engage with the user.  Encouraging the user to interact with the game.
+### This project will have specific responses depending on the users’ decisions and engagement.
+### There will be a main navigation system and structured layout.
+
+
+## Languages
+
+
+* [HTML](http://wwww.html.com) Used for all four html pages as the main markup language for this project.
+* [CSS](http://www.css-tricks.com) Used to style the content of my website.
+* [JavaScript](http://www.javascript.com).
+
+## Technologies
+
+Code used throughout this project was learned and implemented from the [Code Institute Diploma Programme](https://codeinstitue.net)
+
+In this project, I used the following to help build my website.
+
+* [Font Awesome](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) for all the great icons.
+
+* [Google Fonts](https://fonts.googleapis.com/css2?)
+
+* [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css) throughout this project.
+
+* [Balsamique](https://balsamiq.com/)
+  
+* [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
+
+![Code used for the header was adapted from bootstrap 4.5.2](assets/images/header.png)
+
+I used the code from bootstrap for my header.  Here I added a logo and company name.  
+I also edited the css styling to suit my website and adjusted the layout to size appropriately.
+
+* [html](www.html.com)
+* [css] (www.css.co)
+* [JavaScrip](www.javascript.com)
+---
+
+### Code used throughout this project was learned and implimented from the [Code Institute Diploma Programme](https://codeinstitue.net)
+
+
+### In this project I used the following to help build my website.
+
+
+### In this project I have used [Font Awesome](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) for all the great icons.
+
+### In this project I have used [Google Fonts](https://fonts.googleapis.com/css2?)
+
+### I have used [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css) throughtout this project.
+
+![code used and adapted from Bootstrap for modal](assets/images/bootstrapcodemodal.png)
+  
+### I have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
+
+### google maps link from www.google.com. ("https://www.google.com/maps/embed")
+
+### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
