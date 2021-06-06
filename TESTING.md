@@ -6,7 +6,9 @@ This caused some doubling up.
 With some help from Kevin in tutor support, I removed the unneccesary links
 
 
-Include images here.
+![bootstrap issues](assets/images/debuggingimages/bootstrapissue.png)
+
+![bootstrap solution](assets/images/debuggingimages/bootstrapsolution.png)
 
 
 ## Gameboard was misaligning
@@ -15,7 +17,20 @@ I had a positioning issue with my gameboard.  The cards were aligning too far to
 I adjusted my display in css to relative instead of absolute.  
 This helped with the positioning.
 
-Include images here
+![positioning issue](assets/images/debuggingimages/positioningissue.png)
+![positioning solution](assets/images/debuggingimages/positioningsolution.png)
 
 ## Level choices not displaying inline across the width of the screen
 
+## Glyphicon not appearing in button
+
+![404 button error](assets/images/debuggingimages/glyphicon_error.png)
+
+![Glyphicon not showing](assets/images/debuggingimages/glypicon_error_image.png)
+
+After googling and contacting tutor support, I learned that glyphicons are not supported in Bootstrap 5.0.
+Therefore I changed to Font Awesome.
+
+![Font Awesome Icon for chevron-left icon](assets/images/debuggingimages/glyphicon_solution_code.png)
+
+![Solution Image](assets/images/debuggingimages/font_awesome_image.png)
