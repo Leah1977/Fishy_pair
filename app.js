@@ -13,6 +13,25 @@ let lockGameboard = false;
 let firstCard, secondCard;
 let cardsFlipped = 0;
 
+ // 1.1 Create an addEventListener to Play button.
+
+
+    // Declare Variable for level choice
+
+    //   1.1.1. Go to game resetBoard
+
+     //   1.1.2. Timer resets to 60 seconds.
+      //   1.1.2. Moves resets to 0.
+
+
+
+
+// 2. Start Game with first card choice.
+     // 2.1. Choose a card to check
+        // 2.1.1. Add click event to cards.
+        // 2.1.2. Click on first card.
+        // 2.1.3 Flip card to rotate.
+        // 2.1.3 Choose a second card.
 
 function flipCard() {
     //flip the card
@@ -35,13 +54,19 @@ function flipCard() {
         checkIfMatch()
 }
 
-      
+        
+
+// 3. Check for match.
+    
+
 
 function checkIfMatch() {
-    //do cards match
+     // 3.1 Compare the two flipped cards.
     if(firstCard.dataset.image === secondCard.dataset.image)
     {
-        //its a match
+// 4. Cards match
+    // 4.1 If a match cards will remain open.
+        // 4.1.1. Continue play.
         disableCards()
     }
     else
@@ -51,6 +76,13 @@ function checkIfMatch() {
     }
     
 }
+
+
+
+
+// 6. Continue Play till all the cards match.
+
+  
 
 function disableCards() {
     firstCard.removeEventListener('click', flipCard)
@@ -86,70 +118,64 @@ function unflipCards() {
 cards.forEach(card => card.addEventListener('click', flipCard));   //flip the card when clicked
 
 
-// start game function
-
 // declaring a move
 
 let moves = 0;
 let counter = document.querySelector(".moves");
 
-console.log(moves);
+
 
 // count players moves
 
-function moveCounter() {
-  moves++;
-  counter.innerHTML = moves;
+// function moveCounter() {
+//   moves++;
+//   counter.innerHTML = moves;
 
   //start timer on first click
 
-  if(moves == 1) {
-    second = 30;
-    startTimer();
+//   let timer = 30;
 
-  } else {
-    second = 0;
-    stopTimer();
-    return;
-  }
-}
-})
-// ___________________________________________________
+//   setInterval( function() {
+//       timer--;
+
+//       if(timer >=0) {
+//           id = document.getElementById('timer');
+//           id.innerHTML = seconds remaining;
+    
+//       }
+//   }
+
+  const startTimer = 60;
+  let time = starTimer =  60;
+
+  const countDownElement = document.getElementById('timer');
+
+  setInterval(updateCountdown, 1000);
+
+  function updateCountdown() {
+      
+      const seconds = Math.floor(time);
+
+      countDownElement.innerHTML = `${seconds}`;
+      time--;
+
+      if(timer === 0) {
+          id.innerHTML = "Time is Up" 
+      }
 
 
 
+  //   if(moves == 1) {
+//     second = 30;
+//     startTimer();
 
-    // 1.1 Create an addEventListener to Play button.
-
-    // Declare Variable for level choice
-
-    //   1.1.1. Go to game resetBoard
-
-     //   1.1.2. Timer resets to 60 seconds.
-      //   1.1.2. Moves resets to 0.
-
-// 2. Start Game with first card choice.
-     // 2.1. Choose a card to check
-        // 2.1.1. Add click event to cards.
-        // 2.1.2. Click on first card.
-        // 2.1.3 Flip card to rotate.
-        // 2.1.3 Choose a second card.
-        
-
-// 3. Check for match.
-     // 3.1 Compare the two flipped cards.
-
-// 4. Cards match
-        // 4.1 If a match cards will remain open.
-            // 4.1.1. Continue play.
-
-// 5. Cards no match
-      // 5.1 If cards do not match.
-          // 5.1.1 Add a delay of 1 second.
-          // 5.1.2 Cards flip back.
-          // 5.1.3 Choose your next two cards.
-
-// 6. Continue Play till all the cards match.
+//   } else {
+//     second = 0;
+//     stopTimer();
+//     return;
+//   }
+// }
+};
 
 // 7. When all matches have been made.
       // 7.1. Game Ends        
@@ -165,5 +191,9 @@ function moveCounter() {
        // 9.1. Player can choose to reset the board at any time.
           // 9.1.1 Game board will reset
           // 9.1.2 Timer will reset
-          // 9.1.3 Moves will reset
+          // 9.1.3 Moves will reset   
 
+
+
+   
+})
