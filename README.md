@@ -1,4 +1,4 @@
-# Milestone Project 2 - Fish Pairs Game //decide on a name//
+# Milestone Project 2 - Fishy Pairs Game
 
 ### Click here for a link to the live project on GitHub [Fishy Pairs](https://leah1977.github.io/Fishy_pair/)
 
@@ -6,7 +6,7 @@ This is a User Centric Frontend Development Project for Milestone 2.
 
 The project features an interactive matching game.  Users can choose from three levels. 
 
-The game is targeting individual game play for users to have fun and race against the clock to get the pairservices.
+The game is targeting individual game play for users to have fun and race against the clock to find the pairs before time runs out.
 
 ## Table of Contents.
 
@@ -69,13 +69,14 @@ This should display different pages on different screen sizes.
 * Home page
 * How to play page with pop up feedback “well done” “better luck next time”
 * Sign up Form
-* 404 page which should have a link back to the home page without using browser navigation.
+* 404 page which has a link back to the home page without using browser navigation.
 
 ## Home page
 ### The home page is made up of a header.  The header includes a button to enter game play.
 
 ### There is a navigational bar with working links.   This will appear the home page, the game play, sign up form and how to play section.
-Include screen shot of the navigation bar here.
+
+![dropdown menu option](assets/images/readmeimages/dropdown.png)
 
 
 ### The home page includes a button.  The button is responsive to encourage the customer to focus and engage with it.  The text box displays a Start button in blue to draw the customers eye again.
@@ -122,7 +123,11 @@ You could include a link to the file page here for the form.
 ## Features left to implement
 I would like to include a section to become a member of our fish pairs club.
 
-## Design:
+Game Level option choice.
+
+I would have liked to include the options to have different difficulty levels.
+
+
 
 ## Design:
 
@@ -220,7 +225,7 @@ I would like to include a section to become a member of our fish pairs club.
 
 ![Color Scheme](assets/images/colorsms1.png)
 
-My main primary color will be blue.  I will use variations of this color to add designs that stand out and appeal to the user.
+My main color will be purple.  I will use variations of this color to add designs that stand out and appeal to the user.
 
 
 I used [Coolers](http://www.coolers.co) to generate my colours for the project. I then used variations within the project.
@@ -298,3 +303,15 @@ I also edited the css styling to suit my website and adjusted the layout to size
 ### google maps link from www.google.com. ("https://www.google.com/maps/embed")
 
 ### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
+
+## Acknowledgements
+
+
+Much thanks to my mentor Nishant Kumar for giving great support and encouragement throughout my first Milestone Project.
+
+Much thanks to Code Institute Tutors for pointing me in the right direction when I was going off course.
+
+Thanks also to support from the Slack Community. 
+
+Thanks also to the support of my husband and family supporting me through this project and providing invaluable feedback.
+
