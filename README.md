@@ -1,6 +1,6 @@
 # Milestone Project 2 - Fish Pairs Game //decide on a name//
 
-### Click here for a link to the live project on GitHub [Project Name](https://leah1977.github.io/Fishy_pair/)
+### Click here for a link to the live project on GitHub [Fishy Pairs](https://leah1977.github.io/Fishy_pair/)
 
 This is a User Centric Frontend Development Project for Milestone 2.
 
