@@ -304,6 +304,41 @@ I also edited the css styling to suit my website and adjusted the layout to size
 
 ### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
 
+
+## Further References
+- Confident Coding by Rob Percival
+- Confident Web design by Kenny Wood
+- Patreon 
+- [YouTube](https://www.youtube.com/) 
+- [W3Schools](https://www.w3schools.com/) used for information to help in css styling
+- [AmIResponsive](http://ami.responsivedesign.is/)
+
+
+## Deployment
+
+
+I used the programme [Gitpod](www.gitpod.io) in the development of this project.  I pushed it to GitHub using the CLI, which is built into Gitpod.
+
+### To deploy this project to GitHub from its Gitpod repository - please follow these steps.
+
+1. Log in to http://www.github.com
+2. Click on "Your Repositories" from the dropdown menu and select LSH_Electricians_MS1.
+3. Go to the list of options and select Settings.
+4. Scroll down to GitHub pages.
+5. Under source, click the drop-down menu and select branch: master.
+6. Your page then refreshes, and your site is deployed.
+7. Scroll back down to GitHub pages, and you are now provided with a link to your deployed website.
+
+### To clone this project into Gitpod, you should follow these steps.
+
+1. Open your Github account or create one.
+2. Use the Chrome browser.
+3. Install the extension for Gitpod.
+4. Log into your gitpod account.
+5. Navigate to the Project GitHub repository.
+6. Under the Repository LSH_Electricians_MS1, click download.
+7. This will trigger a new gitpod workspace that you can work on.
+
 ## Acknowledgements
 
 
