@@ -34,3 +34,25 @@ Therefore I changed to Font Awesome.
 ![Font Awesome Icon for chevron-left icon](assets/images/debuggingimages/glyphicon_solution_code.png)
 
 ![Solution Image](assets/images/debuggingimages/font_awesome_image.png)
+
+## Jellyfish cards were matching but was not been recognised as a match.
+
+Solution - The alt tag descriptions were not equal.
+
+Updated the alt tag on the jellyfish img to match.
+
+
+## CSS Validator
+
+```<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>```
+        
+
+## HTML Valiator
+
+
