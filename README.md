@@ -60,7 +60,7 @@ The game can be enjoyed as an adult with a young child as  the fun creative elem
 
 ### Here is a demonstrating of how my website looks on different screensizes using [Am I Responsive Website](http://ami.responsivedesign.is/)
 
-![Am I responsive](assets/images/responsivedesignms1.png)
+![Am I responsive](assets/images/amIresponsive.png)
 This should display different pages on different screen sizes.
 
 ---
@@ -139,29 +139,28 @@ I would have liked to include the options to have different difficulty levels.
 
 ### I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
 
-### Click here for a link to the Wireframes [Balsamique Fishy_Pairs](assets/wireframes)
+### Click here for a link to the Wireframes ![Balsamique Fishy_Pairs](Game Wireframes.pdf)
 
-![Desktop Image](assets/images/wireframems1desktop.png)
-![Mobile Image](assets/images/wireframems1mobile.png)
+
 
 ## Project Goals.
 
 ### This project provides an interactive matching game.  Intended for enjoyment.
 
-### To engage with the user for a set amount of time.
-### To provide the user with three level options.
-### To allow the user to enter their initials for the leaderboard top 10. 
-### To allow the user to exit the game at any stage.
-### To allow the user to restart the game.
-### To allow the user to opt in or out for volume.
+* To engage with the user for a set amount of time.
+* To provide the user with three level options.
+* To allow the user to enter their initials for the leaderboard top 10. 
+* To allow the user to exit the game at any stage.
+* To allow the user to restart the game.
+* To allow the user to opt in or out for volume.
 
 ## Strategy
 ---
 
 ### This website is for users looking to interact with a matching game.	
-### I want to provide a game with different levels.
-### I want the instructions to be easy to follow.
-### I want the user to navigate the site with ease.
+* I want to provide a game with different levels.
+* I want the instructions to be easy to follow.
+* I want the user to navigate the site with ease.
 
 * Would you find this game easy to understand?
 * Would you like sound when playing?

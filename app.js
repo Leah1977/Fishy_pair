@@ -4,7 +4,8 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Create an array
+
+// Create an array
 
 const cards = document.querySelectorAll('.cards');
 
@@ -19,9 +20,8 @@ let cardsFlipped = 0;
     // Declare Variable for level choice
 
     //   1.1.1. Go to game resetBoard
-
-     //   1.1.2. Timer resets to 60 seconds.
-      //   1.1.2. Moves resets to 0.
+    //   1.1.2. Timer resets to 60 seconds.
+    //   1.1.3. Moves resets to 0.
 
 
 
@@ -140,6 +140,7 @@ updateMoves();
 //start timer on first click
 
 let count = 60;
+let setTimeOut;
 
 function updateCount() {
       count = count - 1;
@@ -148,7 +149,9 @@ function updateCount() {
  
   }
 
-  updateCount();
+updateCount();
+
+
 
 
 
