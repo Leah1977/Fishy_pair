@@ -8,14 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
 const cards = document.querySelectorAll('.cards');
 
 const movesElement = document.getElementById('moves');
+const timeElement = document.getElementById('timer');
+const gameTime = 30;
 
 let hasFlippedCard = false;
 let lockGameboard = false;
 let firstCard, secondCard;
 let moves = 0;
-
-
-
+let count = gameTime;
+let timeInterval;
+let totalMatchedMove = 0;
 
 
 // Start Game with first card choice.
@@ -24,6 +26,7 @@ let moves = 0;
 function flipCard() {
 
     updateMoves();
+    count === gameTime && startTimer();
 
     
     //flip the card
@@ -54,14 +57,12 @@ function flipCard() {
 
 function checkIfMatch() {
 // Compare the two flipped cards.
-    if(firstCard.dataset.image === secondCard.dataset.image)
-    {
+    if(firstCard.dataset.image === secondCard.dataset.image) {
 // Cards match
 // If a match cards will remain open.
         disableCards()
-    }
-    else
-    { 
+        totalMatchedMove++;
+    } else { 
         //not a match
         unflipCards()
     }
@@ -85,7 +86,7 @@ function unflipCards() {
 
         resetBoard()
     }, 1400)
-    }
+ }
 
     function resetBoard(){
         [hasFlippedCard, lockGameboard] = [false, false];
@@ -103,7 +104,14 @@ function unflipCards() {
 cards.forEach(card => card.addEventListener('click', flipCard));   
 // flip the card when clicked
 
+function resetgameBoard() {
+    movesElement.innerHTML = 0;
+    totalMatchedMove = 0;
+    count = gameTime;
+    clearInterval(timeInterval);
+    timeElement.innerHTML = gameTime;
 
+}
 
 function updateMoves() {
     movesElement.innerHTML = `${++moves}`;
@@ -111,60 +119,29 @@ function updateMoves() {
 }
 
 
-
-
-
 //start timer on first click
 
-let count = 60;
-let setTimeOut;
-
-function updateCount() {
-      count = count - 1;
-      document.getElementById("timer").innerHTML = count;
-      setTimeOut(updateCount, 1000);
+function startTimer() {
+    timeInterval = setInterval (() => {
+        if (timeInterval && count === 0) {
+            clearInterval(timeInterval);
+            timeInterval = null;
  
+            if(totalMatchedMove === 12) {
+               alert("Congratulations You Won!!")
+            } else {
+               alert("Game Over!! Better Luck Next Time!")
+            }
+
+            resetGameBoard();
+
+       } else if (count > 0) { 
+            count = count - 1;
+            timeElement.innerHTML = count;
+       } 
+    }, 1000)
   }
-
-updateCount();
-
-
-
-
-
-// 7. When all matches have been made.
-      // 7.1. Game Ends        
-        // 7.1.1 A pop up of Congratulations will appear if game completed before time runs out.
-        // 7.1.2 A pop up of Hard Luck will appear if time runs out before all matches are made.
-      
-        // 7.2 Board resets.
-
-
-
-// let gameOver;
-
-// function gameOver() {
-
-//     clearInterval(interval);
-
-//     totalGameTime = timer.innerHTML;
-//     document.getElementsByClassName("game-over");
-
-//     matchtedCards = 12;
-
-// }
-
-// gameOver();
-
-
-// 8.  Restart Game.
-       // Player will have an option to play again.
-
-// 9.  Reset game
-       // 9.1. Player can choose to reset the board at any time.
-          // 9.1.1 Game board will reset
-          // 9.1.2 Timer will reset
-          // 9.1.3 Moves will reset   
-
-
 })
+    
+ 
+
