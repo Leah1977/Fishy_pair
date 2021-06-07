@@ -1,40 +1,29 @@
+// wait for the DOM to load before running the game.
 
-// // wait for the DOM to load before running the game.
-// // get the button elements and add eventListeners to the buttons.
 
 document.addEventListener('DOMContentLoaded', function() {
 
 
 // Create an array
-
 const cards = document.querySelectorAll('.cards');
+
+const movesElement = document.getElementById('moves');
 
 let hasFlippedCard = false;
 let lockGameboard = false;
 let firstCard, secondCard;
-let cardsFlipped = 0;
-
- // 1.1 Create an addEventListener to Play button.
-
-
-    // Declare Variable for level choice
-
-    //   1.1.1. Go to game resetBoard
-    //   1.1.2. Timer resets to 60 seconds.
-    //   1.1.3. Moves resets to 0.
+let moves = 0;
 
 
 
-   
 
-// 2. Start Game with first card choice.
-     // 2.1. Choose a card to check
-        // 2.1.1. Add click event to cards.
-        // 2.1.2. Click on first card.
-        // 2.1.3 Flip card to rotate.
-        // 2.1.3 Choose a second card.
+
+// Start Game with first card choice.
+ 
 
 function flipCard() {
+
+    updateMoves();
 
     
     //flip the card
@@ -64,12 +53,11 @@ function flipCard() {
 
 
 function checkIfMatch() {
-     // 3.1 Compare the two flipped cards.
+// Compare the two flipped cards.
     if(firstCard.dataset.image === secondCard.dataset.image)
     {
-// 4. Cards match
-    // 4.1 If a match cards will remain open.
-        // 4.1.1. Continue play.
+// Cards match
+// If a match cards will remain open.
         disableCards()
     }
     else
@@ -77,15 +65,9 @@ function checkIfMatch() {
         //not a match
         unflipCards()
     }
-    
 }
 
-
-
-
-// 6. Continue Play till all the cards match.
-
-  
+// Continue Play till all the cards match.
 
 function disableCards() {
     firstCard.removeEventListener('click', flipCard)
@@ -118,22 +100,17 @@ function unflipCards() {
         });
     })();
 
-cards.forEach(card => card.addEventListener('click', flipCard));   //flip the card when clicked
+cards.forEach(card => card.addEventListener('click', flipCard));   
+// flip the card when clicked
 
 
-// declaring a move
-// count players moves
 
-
-let moves = 0;
 function updateMoves() {
-
-    moves++;
-    moves.innerHTML = `${moves} move(s)`;
+    movesElement.innerHTML = `${++moves}`;
 
 }
 
-updateMoves();
+
 
 
 
