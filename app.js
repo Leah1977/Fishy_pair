@@ -25,6 +25,7 @@ let cardsFlipped = 0;
 
 
 
+   
 
 // 2. Start Game with first card choice.
      // 2.1. Choose a card to check
@@ -34,6 +35,8 @@ let cardsFlipped = 0;
         // 2.1.3 Choose a second card.
 
 function flipCard() {
+
+    
     //flip the card
     if(lockGameboard) return;
     if(this === firstCard) return;
@@ -119,63 +122,35 @@ cards.forEach(card => card.addEventListener('click', flipCard));   //flip the ca
 
 
 // declaring a move
-
-let moves = 0;
-let counter = document.querySelector(".moves");
-
-
-
 // count players moves
 
-// function moveCounter() {
-//   moves++;
-//   counter.innerHTML = moves;
 
-  //start timer on first click
+let moves = 0;
+function updateMoves() {
 
-//   let timer = 30;
+    moves++;
+    moves.innerHTML = `${moves} move(s)`;
 
-//   setInterval( function() {
-//       timer--;
+}
 
-//       if(timer >=0) {
-//           id = document.getElementById('timer');
-//           id.innerHTML = seconds remaining;
-    
-//       }
-//   }
-
-  const startTimer = 60;
-  let time = starTimer =  60;
-
-  const countDownElement = document.getElementById('timer');
-
-  setInterval(updateCountdown, 1000);
-
-  function updateCountdown() {
-      
-      const seconds = Math.floor(time);
-
-      countDownElement.innerHTML = `${seconds}`;
-      time--;
-
-      if(timer === 0) {
-          id.innerHTML = "Time is Up" 
-      }
+updateMoves();
 
 
 
-  //   if(moves == 1) {
-//     second = 30;
-//     startTimer();
+//start timer on first click
 
-//   } else {
-//     second = 0;
-//     stopTimer();
-//     return;
-//   }
-// }
-};
+let count = 60;
+
+function updateCount() {
+      count = count - 1;
+      document.getElementById("timer").innerHTML = count;
+      setTimeOut(updateCount, 1000);
+ 
+  }
+
+  updateCount();
+
+
 
 // 7. When all matches have been made.
       // 7.1. Game Ends        
@@ -183,6 +158,24 @@ let counter = document.querySelector(".moves");
         // 7.1.2 A pop up of Hard Luck will appear if time runs out before all matches are made.
       
         // 7.2 Board resets.
+
+
+
+// let gameOver;
+
+// function gameOver() {
+
+//     clearInterval(interval);
+
+//     totalGameTime = timer.innerHTML;
+//     document.getElementsByClassName("game-over");
+
+//     matchtedCards = 12;
+
+// }
+
+// gameOver();
+
 
 // 8.  Restart Game.
        // Player will have an option to play again.
@@ -194,6 +187,4 @@ let counter = document.querySelector(".moves");
           // 9.1.3 Moves will reset   
 
 
-
-   
 })
