@@ -55,4 +55,8 @@ Updated the alt tag on the jellyfish img to match.
 
 ## HTML Valiator
 
+Pass code throught HTML Validator
+
+[https://leah1977.github.io/Fishy_pair/](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleah1977.github.io%2FFishy_pair%2F)
+
 
