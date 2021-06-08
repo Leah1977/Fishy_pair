@@ -57,13 +57,16 @@ The game can be enjoyed as an adult with a young child as the fun creative eleme
 
 ### Here is a demonstrating of how my website looks on different screensizes using [Am I Responsive Website](http://ami.responsivedesign.is/)
 
-![Am I responsive](assets/images/amIresponsive.png)
-This should display different pages on different screen sizes.
+![Am I responsive](assets/images/readmeimages/responsivegame.png)
+
+The Game will resize according to the different screen sizes.
 
 ---
 #### This project will include four separate pages.  
 
 * Home page with Game
+
+
 * How to play page with pop up feedback “well done” “better luck next time”
 * Sign up Form
 * 404 page which has a link back to the home page without using browser navigation.
@@ -84,78 +87,74 @@ The home page displays an overlay which is clicked to start the game.
 The  How to Play  page has a list of clear instructions on how to play the game. 
 There is also a close button to close the modal and a link back to the home page to play the game.
 
-[How To Play](assets/images/readmeimages/howtoplay.png)
+![How To Play](assets/images/readmeimages/howtoplay.png)
 
 
 
 ## Game section.
-Once the player chooses a level, they are brought to the game section.  Here there will be a set number of cards displaying face down and of identical appearance.
-There will be a timer at the top and a start button over the cards.
-Once the player clicks on the start button the timer will start.  There will be a set time to play the game depending on difficulty level.
-The player must choose two cards
- – 
-if they match – there will be a response of well done, choose another two cards.
-If they do not match the cards will return to face down and the player will be encouraged to try again.
-If all the cards are matched before the time runs out the player will be congratulated.  If they are in the top 10 they will be asked to enter their initials on a leaderboard.
-If some of the cards are left unmatched they will be encouraged to play again.
 
-There will be an option to click on a winning pair to find out some information about the fish on the card.
-At the end of the round there will be an optional choice question for bonus points.
-If the player chooses correctly they will get an extra point.
-If the player chooses incorrectly they will not get an extra point.
-The player will then be asked if the they would like to play again or return to the home menu.
-Include a screenshot of the game play here.
+- The player will click on the play button to enter the game.
+
+- Here there will be a set number of cards displaying face down and of identical appearance.
+
+- There will be a timer at the top, a moves counter  and a refresh icon over the cards.
+
+- Once the player clicks on the start button the timer will start.  There will be a set time to play the game.
+
+- The player must choose two cards
+
+  - If they match – the cards will remain open and the player may continue to choose another two cards.
+
+  ![Cards Match](assets/images/readmeimages/gameplay.png)
+
+  - If they do not match the cards will return to face down and the player may try again.
+
+  
+
+  - If the time runs out before all the cards are matched a "Hard Luck" pop up will show.
+  ![Game Over!! Better Luck Next Time!](assets/images/readmeimages/gameover.png)
+
+  - If all the cards are matched before the time runs out the player will be congratulated. 
+  ![Congratulations! You Won!!](assets/images/readmeimages/youwon.png) 
+  ![You won](assets/images/readmeimages/youwongameplay.png)
 
 
 ## Sign up Form
 
 This page will allow the player to sign up for further information on updates for our game application.
-Include a screenshot of the sign up form here.
-You could include a link to the file page here for the form.
+![Sign Up](assets/images/readmeimages/signup.png)
 
-### The sign up form is to register with our site to be notified of further games or updates
-.
 
-### Contact and address information for the company.
+The sign up form is to register with our site to be notified of further games or updates
+
+
 ## Features left to implement
 I would like to include a section to become a member of our fish pairs club.
 
-Game Level option choice.
+As I develop and improve my JavaScript skills, I would like to include options to change the difficulty level of the game.
 
-I would like to include the options to have different difficulty levels.
-
-
-
-## Design:
-
-
-## UX
+# UX
 
 ## Skeleton:
----
+
 
 ### I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
 
 ### Click here for a link to the Wireframes [Balsamique Fishy_Pairs](assets/wireframes/game_wireframe.pdf)
-
-
 
 ## Project Goals.
 
 ### This project provides an interactive matching game.  Intended for enjoyment.
 
 * To engage with the user for a set amount of time.
-* To provide the user with three level options.
-* To allow the user to enter their initials for the leaderboard top 10. 
 * To allow the user to exit the game at any stage.
 * To allow the user to restart the game.
-* To allow the user to opt in or out for volume.
 
 ## Strategy
----
+
 
 ### This website is for users looking to interact with a matching game.	
-* I want to provide a game with different levels.
+* I want to provide a fun and enjoyable game for a young child.
 * I want the instructions to be easy to follow.
 * I want the user to navigate the site with ease.
 
@@ -178,18 +177,15 @@ I would like to include the options to have different difficulty levels.
 
 ## User Story 2
 
-### As a website user, I want a game to challenge me.  I would expect to be able to choose my level of difficulty and for the game play to match the level.
+ As a website user, I want a game to challenge me.  I would expect to be able to choose my level of difficulty and for the game play to match the level.
 
 ### What I expect to find on a web application game.
 
 1. Does it increase with difficulty as I progress throught the game?
 2. Will the game congratulate me?
-3. What do other customers say about them.
+3. What do other customers say about them?
 
-
-
-
-### With these user stories in mind, I put together some wireframes.  I included all the main requirements and issues that were raised from my user story research.
+With these user stories in mind, I put together some wireframes.  I included all the main requirements and issues that were raised from my user story research.
 
 
 ## Scope
@@ -202,23 +198,20 @@ I would like to include the options to have different difficulty levels.
 *	you completed the game announcement/modal
 
 ## Features
----
+
 #### This project will include four separate pages.  
 
 * Home page
 * How to play page with pop up feedback “well done” “better luck next time”
 * Sign up Form
 
-
-
-
 ## Color Scheme
 
 ### I will use the colors in the main body, header and footer
 
-![Color Scheme](assets/images/colorsms1.png)
+![Color Scheme](assets/images/readmeimages/colours.png)
 
-My main color will be purple.  I will use variations of this color to add designs that stand out and appeal to the user.
+My main colours will be blueviolet and aqua.  I will use variations of this color to add designs that stand out and appeal to the user.
 
 
 I used [Coolers](http://www.coolers.co) to generate my colours for the project. I then used variations within the project.
@@ -228,7 +221,19 @@ I used [Coolers](http://www.coolers.co) to generate my colours for the project. 
 ### I will use the following fonts throughout the website for consistency in style.
 
  * Eczar
+![Eczar Font](assets/images/readmeimages/eczar.png)
+
+I chose this font for its style, to be used to catch the attention of the user when the game loads
+![Play Game Overlay](assets/images/readmeimages/startgame.png)
+
  * Rubik
+
+ ![Rubik Font](assets/images/readmeimages/rubik.png)
+
+ I chose this for the main game title
+
+ ![Game Title](assets/images/readmeimages/gametitle.png)
+ 
  * Sans Serif as a back up
 
 ## Additional Features
