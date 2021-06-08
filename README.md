@@ -4,7 +4,7 @@
 
 This is a User Centric Frontend Development Project for Milestone 2.
 
-The project features an interactive matching game.  Users can choose from three levels. 
+The project features an interactive matching game. 
 
 The game is targeting individual game play for users to have fun and race against the clock to find the pairs before time runs out.
 
@@ -41,21 +41,18 @@ FISHY PAIRS
 
 
 My project is all about having fun while reinforcing some early learning skills to improve the cognitive development of a young child.
-Fish pairs is a memory game.  It is aimed to encourage children to improve their memory recall while having fun, while also learning some interesting fish facts.
+Fish pairs is a memory game.  It is aimed to encourage children to improve their memory recall while having fun.
 The game will increase in difficulty as the child progresses through the levels.
-There will be an option to take a quiz for bonus points on completion of each level.
 
 ### What value does it provide to its users
 This game encourages the cognitive development of young children.
 Improving memory skills.
 It provides a fun platform  for learning.
 The game is designed for short sessions of game play in which the child can interact with a game  while learning.
-e.g.Have fun and enjoy playing the game, educational value, memory skills etc.
 
-
-### What value does it provide to the site owner – enjoy playing the game myself with family. Two player option??
+### What value does it provide to the site owner – enjoy playing the game myself with family.
 It is  a way to interact with young children and lead on to independent play as the child progresses.
-The game can be enjoyed as an adult with a young child as  the fun creative element will promote engagement.
+The game can be enjoyed as an adult with a young child as the fun creative element will promote engagement.
 
 
 ### Here is a demonstrating of how my website looks on different screensizes using [Am I Responsive Website](http://ami.responsivedesign.is/)
@@ -66,29 +63,30 @@ This should display different pages on different screen sizes.
 ---
 #### This project will include four separate pages.  
 
-* Home page
+* Home page with Game
 * How to play page with pop up feedback “well done” “better luck next time”
 * Sign up Form
 * 404 page which has a link back to the home page without using browser navigation.
 
 ## Home page
-### The home page is made up of a header.  The header includes a button to enter game play.
-
-### There is a navigational bar with working links.   This will appear the home page, the game play, sign up form and how to play section.
+ 
+The home page is made up of the title "Fishy Pairs".
+An overlay to start the game.
+The matching game.
+A drop down select menu.
 
 ![dropdown menu option](assets/images/readmeimages/dropdown.png)
 
-
-### The home page includes a button.  The button is responsive to encourage the customer to focus and engage with it.  The text box displays a Start button in blue to draw the customers eye again.
+The home page displays an overlay which is clicked to start the game.  
 
 ## How to Play Page
 
-### The  How to Play  page has a list of clear instructions on how to play the game. 
- 
+The  How to Play  page has a list of clear instructions on how to play the game. 
+There is also a close button to close the modal and a link back to the home page to play the game.
+
+[How To Play](assets/images/readmeimages/howtoplay.png)
 
 
-* Cancel the game.
-* Restart.
 
 ## Game section.
 Once the player chooses a level, they are brought to the game section.  Here there will be a set number of cards displaying face down and of identical appearance.
