@@ -299,11 +299,11 @@ a.play-btn {
 
 @keyframes overlay-grow {
     from {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
         font-size: 0;
     }
     to {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.8);
         font-size: 10em;
       }
     }
@@ -343,7 +343,7 @@ footer {
 .social-header {
     color:rgb(95, 18, 168);
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -381,43 +381,14 @@ footer {
 @media (max-width: 320px) {
 
    
-.level-option1,
-.level-option2, 
-.level-option3 {
-    padding: 5px;
-    width: 28%;
-    height: 200px;
-    float: left;
-    border-radius: 5px;
-    border: 2px solid #555555;
-    margin: 5px;
-
-    
- }
-
 .game-title {
-    font-size: 3rem;
+    font-size: 2em;
+    padding-bottom: 10px;
 }
- 
-
-
- .dropdown {
-     padding-top: 5px;
-     
+.dropdown {
+     padding: 10px;
  }
  
-.card-img-top {
-    padding: 10px;
-    width: 100%;
-    height: 100px;
-}
-
-.card-title {
-    text-align: center;
-    font-size: small;
-}
-
-
 #pairs-gameboard {
     width: 100%;
     max-height: 600px;
@@ -428,8 +399,9 @@ footer {
 
 .card-front-face, 
 .card-back-face {
-    width: 100%;
-    height: 100%;
+    width: 90px;
+    height: 90px;
+
   }
 
   .cards {
@@ -437,6 +409,17 @@ footer {
     height: calc(25% - 10px); 
     
 }
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 0;
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 2em;
+      }
+    }
 
 .score-panel {
     margin: 0 1rem;
@@ -462,13 +445,121 @@ footer {
 
 #dropdownMenuLink {
     width: 100px;
-    height: 25px;
     font-size: 10px;
     margin: 0 auto;
 }
 
 }
 
+@media (max-width: 575px) {
+
+   
+    .game-title {
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    .dropdown {
+         padding: 10px;
+     }
+     
+    #pairs-gameboard {
+        width: 100%;
+        max-height: 600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+      }
+    
+    .card-front-face, 
+    .card-back-face {
+        width: 100%;
+        height: 100%;
+    
+      }
+    
+      .cards {
+        width: calc(33.33% - 10px);
+        height: calc(25% - 10px); 
+        
+    }
+    
+    @keyframes overlay-grow {
+        from {
+            background-color: rgba(0, 0, 0, 0.4);
+            font-size: 0;
+        }
+        to {
+            background-color: rgba(0, 0, 0, 0.8);
+            font-size: 4em;
+          }
+        }
+    
+    .score-panel {
+        margin: 0 1rem;
+        font-size: 14px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: inline-flex;
+    
+    }
+    
+    #gametimer > h2 {
+        font-size: 14px;
+        
+    }
+    
+    #gametimer .moves .restart {
+        font-size: 8px;
+    }
+    
+    .game-container {
+        margin: 0 auto;
+    }
+    
+    #dropdownMenuLink {
+        width: 100px;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    
+    }
+
+    @media (max-width: 990px) {
+
+   
+        .game-title {
+            font-size: 3rem;
+            padding-bottom: 10px;
+        }
+        .dropdown {
+             padding: 10px;
+         }
+         
+        #pairs-gameboard {
+            width: 100%;
+            max-height: 600px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+          }
+        
+      
+        
+        @keyframes overlay-grow {
+            from {
+                background-color: rgba(0, 0, 0, 0.4);
+                font-size: 0;
+            }
+            to {
+                background-color: rgba(0, 0, 0, 0.8);
+                font-size: 4em;
+              }
+            }
+        
+     
+        
+        }
+    
 /* ---------------------------------------------404 page */
 
 .fishy {
