@@ -127,7 +127,7 @@ function startTimer() {
             clearInterval(timeInterval);
             timeInterval = null;
  
-            if(totalMatchedMove === 12) {
+            if(totalMatchedMove === 12) {   
                alert("Congratulations You Won!!")
             } else {
                alert("Game Over!! Better Luck Next Time!")
