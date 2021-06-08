@@ -27,7 +27,7 @@ let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 overlays.forEach(overlay => {
     overlay.addEventListener('click', () => {
         overlay.classList.remove('visible');
-        flipCard();
+        resetgameBoard();
         });
     });
 
@@ -137,7 +137,7 @@ function startTimer() {
  
             if(totalMatchedMove === 6) {   
                alert("Congratulations You Won!!");
-               stopTimer(gameTime);
+               clearInterval(timeInterval);
             } else {
                alert("Game Over!! Better Luck Next Time!")
             }
@@ -150,6 +150,9 @@ function startTimer() {
        } 
     }, 1000)
   }
+
+
+  
 })
 
 
