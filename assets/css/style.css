@@ -289,7 +289,7 @@ a.play-btn {
 }
 
 .overlay-text-small {
-    font-size: .6em;
+    font-size: .4em;
 }
 
 .overlay-text.visible {
@@ -458,11 +458,6 @@ footer {
 
 .game-container {
     margin: 0 auto;
-}
-
-.dropdown {
-    float: right;
-    padding-right: 20px;
 }
 
 #dropdownMenuLink {

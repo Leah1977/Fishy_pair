@@ -9,7 +9,7 @@ const cards = document.querySelectorAll('.cards');
 
 const movesElement = document.getElementById('moves');
 const timeElement = document.getElementById('timer');
-const gameTime = 30;
+const gameTime = 40;
 
 let hasFlippedCard = false;
 let lockGameboard = false;
@@ -18,17 +18,25 @@ let moves = 0;
 let count = gameTime;
 let timeInterval;
 let totalMatchedMove = 0;
+let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 
 
 // Start Game with first card choice.
- 
+
+    
+overlays.forEach(overlay => {
+    overlay.addEventListener('click', () => {
+        overlay.classList.remove('visible');
+        flipCard();
+        });
+    });
 
 function flipCard() {
 
     updateMoves();
     count === gameTime && startTimer();
 
-    
+     
     //flip the card
     if(lockGameboard) return;
     if(this === firstCard) return;
@@ -85,7 +93,7 @@ function unflipCards() {
         secondCard.classList.remove('flip')
 
         resetBoard()
-    }, 2000)
+    }, 1400)
  }
 
     function resetBoard(){
@@ -127,8 +135,9 @@ function startTimer() {
             clearInterval(timeInterval);
             timeInterval = null;
  
-            if(totalMatchedMove === 12) {   
-               alert("Congratulations You Won!!")
+            if(totalMatchedMove === 6) {   
+               alert("Congratulations You Won!!");
+               stopTimer(gameTime);
             } else {
                alert("Game Over!! Better Luck Next Time!")
             }
@@ -142,6 +151,11 @@ function startTimer() {
     }, 1000)
   }
 })
+
+
+
+
+
     
  
 
