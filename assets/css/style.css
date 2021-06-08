@@ -460,6 +460,11 @@ footer {
     margin: 0 auto;
 }
 
+.dropdown {
+    float: right;
+    padding-right: 20px;
+}
+
 #dropdownMenuLink {
     width: 100px;
     height: 25px;
