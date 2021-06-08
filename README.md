@@ -85,9 +85,8 @@ This should display different pages on different screen sizes.
 
 ### The  How to Play  page has a list of clear instructions on how to play the game. 
  
-* Choose a level
-* Enter your name.
-* Save your score.
+
+
 * Cancel the game.
 * Restart.
 
@@ -125,7 +124,7 @@ I would like to include a section to become a member of our fish pairs club.
 
 Game Level option choice.
 
-I would have liked to include the options to have different difficulty levels.
+I would like to include the options to have different difficulty levels.
 
 
 
@@ -199,14 +198,11 @@ I would have liked to include the options to have different difficulty levels.
 
 ### Essentials will include
 
-*	Levels
-*	Start button
 *   Restart button
 *	Exit button
 *   Timer
-*   Leaderboard
-*   sound on/off selector
-	you completed the game announcement/modal
+*	you completed the game announcement/modal
+
 ## Features
 ---
 #### This project will include four separate pages.  
@@ -298,8 +294,6 @@ I also edited the css styling to suit my website and adjusted the layout to size
 ![code used and adapted from Bootstrap for modal](assets/images/bootstrapcodemodal.png)
   
 ### I have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
-
-### google maps link from www.google.com. ("https://www.google.com/maps/embed")
 
 ### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
 
