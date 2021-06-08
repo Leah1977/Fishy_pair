@@ -295,12 +295,18 @@ Code used throughout this project was learned and implemented from the [Code Ins
     
 ### I have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
 
-### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
+### Images
+
+Images for this game where located in the clipart-library
+
+[Card Images](http://clipart-library.com/nemo.html)
 
 JavaScript code was written with the help of 
 
 YouTube
 https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
+
+
 ## Further References
 - Confident Coding by Rob Percival
 - Confident Web design by Kenny Wood
