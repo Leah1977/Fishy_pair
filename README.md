@@ -139,7 +139,7 @@ I would have liked to include the options to have different difficulty levels.
 
 ### I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
 
-### Click here for a link to the Wireframes [Balsamique Fishy_Pairs] (assets/wireframes/game_wireframe.pdf)
+### Click here for a link to the Wireframes [Balsamique Fishy_Pairs](assets/wireframes/game_wireframe.pdf)
 
 
 
