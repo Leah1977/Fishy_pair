@@ -240,17 +240,14 @@ I chose this font for its style, to be used to catch the attention of the user w
 
 
 ## Project Display
----
 
-### This project is responsive to appear on different screen sizes.
-### The display changes to accomodate smaller screensize. 
-### This project is specifically designed to engage with the user.  Encouraging the user to interact with the game.
-### This project will have specific responses depending on the users’ decisions and engagement.
-### There will be a main navigation system and structured layout.
-
+This project is responsive to appear on different screen sizes.
+The display changes to accomodate smaller screensize. 
+This project is specifically designed to engage with the user.  Encouraging the user to interact with the game.
+This project will have specific responses depending on the users’ decisions and engagement.
+There will be a main navigation system and structured layout.
 
 ## Languages
-
 
 * [HTML](http://wwww.html.com) Used for all four html pages as the main markup language for this project.
 * [CSS](http://www.css-tricks.com) Used to style the content of my website.
@@ -258,7 +255,7 @@ I chose this font for its style, to be used to catch the attention of the user w
 
 ## Technologies
 
-Code used throughout this project was learned and implemented from the [Code Institute Diploma Programme](https://codeinstitue.net)
+
 
 In this project, I used the following to help build my website.
 
@@ -272,35 +269,38 @@ In this project, I used the following to help build my website.
   
 * [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
 
-![Code used for the header was adapted from bootstrap 4.5.2](assets/images/header.png)
 
-I used the code from bootstrap for my header.  Here I added a logo and company name.  
-I also edited the css styling to suit my website and adjusted the layout to size appropriately.
 
 * [html](www.html.com)
 * [css] (www.css.co)
 * [JavaScrip](www.javascript.com)
 ---
 
-### Code used throughout this project was learned and implimented from the [Code Institute Diploma Programme](https://codeinstitue.net)
 
 
-### In this project I used the following to help build my website.
+## In this project I used the following to help build my website.
+
+Code used throughout this project was learned and implemented from the [Code Institute Diploma Programme](https://codeinstitue.net)
+
+### [Font Awesome](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) for its great choice of icons.
+
+### [Google Fonts](https://fonts.googleapis.com/css2?)
+
+### [Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js) throughtout this project.
+
+![code used and adapted from Bootstrap for dropdown](assets/images/readmeimages/dropdowncode.png)
 
 
-### In this project I have used [Font Awesome](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) for all the great icons.
-
-### In this project I have used [Google Fonts](https://fonts.googleapis.com/css2?)
-
-### I have used [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css) throughtout this project.
-
-![code used and adapted from Bootstrap for modal](assets/images/bootstrapcodemodal.png)
-  
+![code used and adapted from Bootstrap for modal](assets/images/readmeimages/modalcode.png)
+    
 ### I have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
 
 ### Thanks to all the photograhpers and websites Unsplash, Pexels and Pixabay for allowing the use of following photos and video.
 
+JavaScript code was written with the help of 
 
+YouTube
+https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
 ## Further References
 - Confident Coding by Rob Percival
 - Confident Web design by Kenny Wood
@@ -309,6 +309,9 @@ I also edited the css styling to suit my website and adjusted the layout to size
 - [W3Schools](https://www.w3schools.com/) used for information to help in css styling
 - [AmIResponsive](http://ami.responsivedesign.is/)
 
+## Testing
+
+[Testing Section](TESTING.md)
 
 ## Deployment
 
@@ -318,9 +321,9 @@ I used the programme [Gitpod](www.gitpod.io) in the development of this project.
 ### To deploy this project to GitHub from its Gitpod repository - please follow these steps.
 
 1. Log in to http://www.github.com
-2. Click on "Your Repositories" from the dropdown menu and select LSH_Electricians_MS1.
+2. Click on "Your Repositories" from the dropdown menu and select Fishy_pair.
 3. Go to the list of options and select Settings.
-4. Scroll down to GitHub pages.
+4. Scroll down to GitHub pages and click on the new dedicated tab.
 5. Under source, click the drop-down menu and select branch: master.
 6. Your page then refreshes, and your site is deployed.
 7. Scroll back down to GitHub pages, and you are now provided with a link to your deployed website.
@@ -332,13 +335,13 @@ I used the programme [Gitpod](www.gitpod.io) in the development of this project.
 3. Install the extension for Gitpod.
 4. Log into your gitpod account.
 5. Navigate to the Project GitHub repository.
-6. Under the Repository LSH_Electricians_MS1, click download.
+6. Under the Repository Fishy_pair, click download.
 7. This will trigger a new gitpod workspace that you can work on.
 
 ## Acknowledgements
 
 
-Much thanks to my mentor Nishant Kumar for giving great support and encouragement throughout my first Milestone Project.
+Much thanks to my mentor Nishant Kumar for giving great support and encouragement throughout my second Milestone Project.
 
 Much thanks to Code Institute Tutors for pointing me in the right direction when I was going off course.
 
