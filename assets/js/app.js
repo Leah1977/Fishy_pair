@@ -20,7 +20,6 @@ let timeInterval;
 let totalMatchedMove = 0;
 let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 
-
 // Start Game with first card choice.
 
     
@@ -45,16 +44,16 @@ function flipCard() {
     
     if(!hasFlippedCard) {
         //first card clicked
-        hasFlippedCard = true
-        firstCard = this
+        hasFlippedCard = true;
+        firstCard = this;
 
         return;
     }
 
         //second card clicked
-        secondCard = this
+        secondCard = this;
 
-        checkIfMatch()
+        checkIfMatch();
 }
 
         
@@ -68,32 +67,32 @@ function checkIfMatch() {
     if(firstCard.dataset.image === secondCard.dataset.image) {
 // Cards match
 // If a match cards will remain open.
-        disableCards()
+        disableCards();
         totalMatchedMove++;
     } else { 
         //not a match
-        unflipCards()
+        unflipCards();
     }
 }
 
 // Continue Play till all the cards match.
 
 function disableCards() {
-    firstCard.removeEventListener('click', flipCard)
-    secondCard.removeEventListener('click', flipCard)
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
 
-    resetBoard()
+    resetBoard();
 }
 
 function unflipCards() {
     lockGameboard = true;
 
     setTimeout( () => {
-        firstCard.classList.remove('flip')
-        secondCard.classList.remove('flip')
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
 
-        resetBoard()
-    }, 1400)
+        resetBoard();
+    }, 1400);
  }
 
     function resetBoard(){
@@ -104,7 +103,7 @@ function unflipCards() {
 
     (function shuffle() {
         cards.forEach(card => {
-            let randomPlace = Math.floor(Math.random() * 12)
+            let randomPlace = Math.floor(Math.random() * 12);
             card.style.order = randomPlace;
         });
     })();
@@ -112,7 +111,7 @@ function unflipCards() {
 cards.forEach(card => card.addEventListener('click', flipCard));   
 // flip the card when clicked
 
-function resetgameBoard() {
+function resetGameBoard() {
     movesElement.innerHTML = 0;
     totalMatchedMove = 0;
     count = gameTime;
@@ -139,7 +138,7 @@ function startTimer() {
                alert("Congratulations You Won!!");
                
             } else {
-               alert("Game Over!! Better Luck Next Time!")
+               alert("Game Over!! Better Luck Next Time!");
             }
 
             resetGameBoard();
@@ -148,9 +147,9 @@ function startTimer() {
             count = count - 1;
             timeElement.innerHTML = count;
        } 
-    }, 1000)
+    }, 1000);
   }
-})
+});
 
 
 
