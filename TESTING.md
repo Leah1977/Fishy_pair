@@ -62,14 +62,14 @@ Comparing the deployed version against the development version(wireframes)
 
 - Changes to the finished version of my game.
 
-I removed the three dificulty options from the finished game.
+I removed the three difficulty options from the finished game.
 
-I removed this because, I found I was confusing myself with all the new JavaScript.
-I decided to concentrate on the core basics of the game and to build on it as much as I could within the given timeframe.
+I removed this because I found I was confusing myself with all the new JavaScript.
+I decided to concentrate on the game's core basics and build on it as much as I could within the given timeframe.
 
-As a result the game is very basic, but I found it was clear and simple.  Making it ideal for the intended user.
+As a result, the game is very basic, but I found it was clear and straightforward.  Making it ideal for the intended user.
 
-There is no leadership board in the finished game and I hope to learn how to incorporate this at a later stage, as my knowledge grows.
+There is no leadership board in the finished game, and I hope to learn how to incorporate this later as my knowledge grows.
 
 ## Lighthouse
 
@@ -79,7 +79,7 @@ Tested the site using Lighthouse
 
 ## Mobile
 
-Tested the site for mobile friendly usage
+Tested the site for mobile-friendly usage
 
 [Mobile-Friendly Test-Google Services](https://search.google.com/test/mobile-friendly)
 ![Mobile friendly approved]assets/images/readmeimages/mobilefriendly.png)
@@ -93,7 +93,7 @@ Tested all links on all pages. All links work as intended. This allows the user 
 
 **Expected**
 
-When you click on the options dropdown menu item, it is expected to drop down with a list of items that you can click on.
+When you click on the options drop-down menu item, it is expected to drop down with a list of items that you can click on.
 * The first link returns you to the game.
 * The second link leads to a modal that instructs you on how to play the game.
 * The third option is to bring you to a form to sign up for further information.
@@ -101,14 +101,14 @@ When you click on the options dropdown menu item, it is expected to drop down wi
 
 **Testing**
 
-Clicked on drop-down menu.
-Clicked on each option.
+I clicked on the drop-down menu.
+I clicked on each option.
 
 **Result**
 
 When you click on  Home, you are returned to the home page.
 When you click on How to Play, a modal pops up with instructions on How To Play.
-When you click on Sign up, you are redirected to a sign up page.
+When you click on Sign up, you are redirected to a sign-up page.
 
 **Expected**
 The links work as expected.
@@ -119,11 +119,11 @@ Tested the overlay
 
 Tested the social contact links in the footer
 
-Tested the social contact links on all pages. Clicking on a social link, link should change colour when you hover over it and, when clicked, will redirect you to the relevant page in a new window.
+Tested the social contact links on all pages. When you click on a social link, the link should change colour when you hover over it and, when clicked, will redirect you to the relevant page in a new window.
 
 **Expected**
 
-When you hover over the social link, it is expected that the link will change colour. When you click on the social link you will be redirected to the relevant page in a new window.
+When you hover over the social link, it is expected that the link will change colour. When you click on the social link, you will be redirected to the relevant page in a new window.
 
 **Testing**
 
@@ -170,7 +170,7 @@ Click on the Home Button to return to the game.
 
 **Expected**
 
-When you enter in your details, they are displayed as entered.
+When you enter your details, they are displayed as entered.
 When you click on the submit button, the form is submitted - this site is static.
 When you click on the Home button, you are returned to the game.
 
@@ -180,18 +180,18 @@ Tested the form by filling out details for all sections.
 
 **Result**
 
-If you leave enter the email address in incorrect format, a pop up appears to prompt you to fill out your details.
+If you enter the email address in incorrect format, a pop up appears to prompt you to fill out your details.
 
 Testing across various devices
 
 - Ensured the website was responsive on all pages through [Google Mobile Friendly](https://search.google.com/test/mobile-friendly)
 
 - Ensured the website was responsive on different mobiles using [BrowserStack](https://www.browserstack.com/)
-![Testing on mobile device](assets/images/readmeimages/mobiletesting.png)
+![Testing on a mobile device](assets/images/readmeimages/mobiletesting.png)
 
 - Testing was also performed on Safari and Chrome
 
-- Testing was also carried out by several family members.
+Several family members also carried out-Testing.
 
 
 ## User Stories
@@ -200,22 +200,22 @@ Implement the user stories.
 
 ### User Story 1
 
-What I expect to find on a matching game?
+What do I expect to find on a matching game?
  
 1. The game displays an overlay to click on to start the game straight away.
 2. The game gives three options.  You can choose to play straight away.  You can click on an option to find out how to play the game.  You can sign up for further information on developing games.
-3. The game is interactive.  When you click on a card it will turn over.  If you find a match it will remain flipped, you can then continue to choose another card.  
+3. The game is interactive.  When you click on a card, it will turn over.  If you find a match, it will remain flipped; you can then choose another card.  
    Continue play till all the matches are found.  
    Your score will be counted up as moves for each click.
    You will play till the timer runs out.
 4. You can restart the game at any stage with the restart icon.
-   There are no further levels at this stage.  There are plans to have more levels.
+   There are no other levels at this stage.  There are plans to have more levels.
 
    ![Game Play](assets/images/readmeimages/startgame.png)
 
 ### User Story 2
 
- This game has one level, you will race against the clock to find all the matches.
+ This game has one level; you will race against the clock to find all the matches.
 
 ![Timed Game](assets/images/readmeimages/timer.png)
 
@@ -225,20 +225,20 @@ What I expect to find on a matching game?
 
 ### User Story 3
 
-This game can be played by an any age, but is designed to be used by a young child.
+This game can be played by any age but is designed to be used by a young child.
 
 1. The game is made with bright coloured fun images to interest a young child.
-2. the game is for short game play, to keep the interest of a younger child.
-3. I would recommend this game for 3 - 6 year olds.
+2. the game is for short gameplay to keep the interest of a younger child.
+3. I would recommend this game for 3 - 6-year-olds.
 
 ### User Story 4
 
 This game would be suitable to play with a young child.
 
 1. The game is easy to navigate.
-2. It is designed for short game play to keep interest.
-3. This game is great for promoting memory skills.  
-   It also encourages developmental skills such as hand eye co-ordination.
+2. It is designed for short gameplay to keep you interested.
+3. This game is excellent for promoting memory skills.  
+   It also encourages developmental skills such as hand-eye coordination.
 
 ## Debugging
 
@@ -246,12 +246,12 @@ This game would be suitable to play with a young child.
 Debugging HTML in index.html
 
 
-### Dropdown menu not working 
+### Drop-down menu not working 
 
-I had added some extra bootstrap links to the bottom of the index.html page.  They were unneccessary as I had already add the bundle.  
+I had added some additional bootstrap links to the bottom of the index.html page.  They were unnecessary as I had already added the bundle.  
 This caused some doubling up.
 
-With some help from Kevin in tutor support, I removed the unneccesary links
+With some help from Kevin in tutor support, I removed the unnecessary links.
 
 
 ![bootstrap issues](assets/images/debuggingimages/bootstrapissue.png)
@@ -262,7 +262,7 @@ With some help from Kevin in tutor support, I removed the unneccesary links
 ### Gameboard was misaligning
 
 I had a positioning issue with my gameboard.  The cards were aligning too far to the left.
-I adjusted my display in css to relative instead of absolute.  
+I adjusted my display in CSS to relative instead of absolute.  
 This helped with the positioning.
 
 ![positioning issue](assets/images/debuggingimages/positioningissue.png)
@@ -270,7 +270,7 @@ This helped with the positioning.
 
 ### Level choices not displaying inline across the width of the screen
 
-Solved this issued with some 
+Solved this issue with some 
 
 ```<section class ="level-options">
       <!-- level 1 Easy --> 
@@ -297,7 +297,7 @@ Solved this issued with some
 
 ```
 
-Decided later to delete this section due to lack of knowledge on JS for difficulty levels.
+I decided later to delete this section due to a lack of knowledge on JS for difficulty levels.
 
 ### Glyphicon not appearing in button
 
@@ -312,18 +312,18 @@ Therefore I changed to Font Awesome.
 
 ![Solution Image](assets/images/debuggingimages/font_awesome_image.png)
 
-Jellyfish cards were matching but was not been recognised as a match.
+Jellyfish cards were matching but were not being recognised as a match.
 
-Solution - The alt tag descriptions were not equal.
+Solution: The alt tag descriptions were not equal.
 
-Updated the alt tag on the jellyfish img to match.
+I updated the alt tag on the jellyfish img to match.
 
 
 ### Debugging on the 404.html
 
-Image was appearing off center on the top of the page.
+The image was appearing off-centre on the top of the page.
 
-To fix this, I edited the css in the style.css file.
+To fix this, I edited the CSS in the style.css file.
 
 ``` .fishy {
     width: 200px;
@@ -337,3 +337,5 @@ To fix this, I edited the css in the style.css file.
 ## End of Testing Section
 
 [Return to Table of Contents](#table-of-contents)
+
+
