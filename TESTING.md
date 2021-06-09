@@ -1,19 +1,45 @@
-## Testing
+# Testing Of Milestone Project 2
+
+## Table of Contents.
+
+1.  [CSS Validation](#css-validator)
+2.  [HTML Validation](#html-validator)
+3.  [JS Validation](#js-validator)
+4.  [Wireframe Comparison](#wireframe)
+5.  [Lighthouse](#lighthouse)
+6.  [Mobile](#mobile-testing)
+7.  [Project Testing](#deployed-testing)
+    - [Links](#links)
+    - [Overlay](#overlay)
+    - [Modal](#modal)
+    - [Sign-up Form](#form)
+8.  [User Stories](#user-stories)
+    - [User Story 1](#user-story-1)
+    - [User Story 2](#user-story-2)
+    - [User Story 3](#user-story-3)
+    - [User Story 4](#user-story-4)
+9.  [Debugging](#debugging)
+
+
+
 
 [Back to README.md](README.md)
 
 ## CSS Validator
 
-```<p>
+Tested on W3C CSS Validator
+
+<p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a>
-</p>```
-        
+</p>
 
-## HTML Valiator
+[CSS Validation for https://github.com/Leah1977/Fishy_pair](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleah1977.github.io%2FLSH_Electricians_MS1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## HTML Validator
 
 Pass code throught HTML Validator
 
@@ -26,57 +52,41 @@ Pass code throught HTML Validator
 
 [404.html  W3C Markup Validation https://leah1977.github.io/contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleah1977.github.io%2FFishy_pair%2F404.html)
 
+## JS Validator
 
-1.	Testing at development stage
-•	Functionality testing
-•	Usability testing
-•	Responsiveness testing 
-Add screen shots that match each user story when testing.
-Test the deployed version against the development version(wireframes)
--	Are there changes?
--	Why did you change it?
--	Reasons for change?
--	How do you feel it has improved after the change.
+Tested the site with jshint.com validator.
 
-Document the results of the testing.
-You should have a well planned manual testing procedure to assess the website’s functionality, usability and responsiveness.
+## Wireframe Comparison
 
-2.	Testing at implementation stage.
+Comparing the deployed version against the development version(wireframes)
 
+- Changes to the finished version of my game.
 
-3.	Testing at deployment stage.
+I removed the three dificulty options from the finished game.
 
-Make sure all links work and that there is no commented out code in the project.
+I removed this because, I found I was confusing myself with all the new JavaScript.
+I decided to concentrate on the core basics of the game and to build on it as much as I could within the given timeframe.
 
-When writing the README.md be sure to update the commits linked to it to give clear evidence of the  full development cycle.
+As a result the game is very basic, but I found it was clear and simple.  Making it ideal for the intended user.
 
-Run the readme through grammarly before submitting project.
+There is no leadership board in the finished game and I hope to learn how to incorporate this at a later stage, as my knowledge grows.
 
-## Testing
-## Tested the site using Lighthouse 
+## Lighthouse
+
+Tested the site using Lighthouse 
 
 ![Lighthhouse Review](assets/images/readmeimages/lighthouse.png)
 
+## Mobile
 
-## Tested on W3C CSS Validator
-
-
-* [CSS Validation for https://github.com/Leah1977/Fishy_pair](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleah1977.github.io%2FLSH_Electricians_MS1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-<p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-
-## Tested the site with jshint.com validator.
-
-## Tested the site for mobile friendly usage
+Tested the site for mobile friendly usage
 
 [Mobile-Friendly Test-Google Services](https://search.google.com/test/mobile-friendly)
 ![Mobile friendly approved]assets/images/readmeimages/mobilefriendly.png)
+
+## Project Testing
+
+### Links
 
 Tested all links on all pages. All links work as intended. This allows the user to move from one page to another with ease.
 
@@ -107,11 +117,7 @@ Tested the overlay
 
 **Expected**
 
-When you click on the overlay, it will hide from view.  
-Allowing you to start the game.
-
-
-## Tested the social contact links in the footer
+Tested the social contact links in the footer
 
 Tested the social contact links on all pages. Clicking on a social link, link should change colour when you hover over it and, when clicked, will redirect you to the relevant page in a new window.
 
@@ -131,7 +137,12 @@ The site acted as expected, and the link changed colour when you hover over it a
 
 No fix required.
 
-## Tested the modal
+### Overlay
+
+When you click on the overlay, it will hide from view.  
+Allowing you to start the game.
+
+### Tested the modal
 
 Tested the modal on the home page. 
 
@@ -151,7 +162,7 @@ Links work as expected.
 
 No fix required.
 
-## Tested the form on the contact page.
+### Sign-up Form
 
 Tested the form. Entered in details to each relevant section.
 I checked the submit button by clicking on it.
@@ -171,7 +182,7 @@ Tested the form by filling out details for all sections.
 
 If you leave enter the email address in incorrect format, a pop up appears to prompt you to fill out your details.
 
-## Testing across various devices
+Testing across various devices
 
 - Ensured the website was responsive on all pages through [Google Mobile Friendly](https://search.google.com/test/mobile-friendly)
 
@@ -183,11 +194,13 @@ If you leave enter the email address in incorrect format, a pop up appears to pr
 - Testing was also carried out by several family members.
 
 
+## User Stories
+
 Implement the user stories.
 
-## User Story 1
+### User Story 1
 
-## What I expect to find on a matching game?
+What I expect to find on a matching game?
  
 1. The game displays an overlay to click on to start the game straight away.
 2. The game gives three options.  You can choose to play straight away.  You can click on an option to find out how to play the game.  You can sign up for further information on developing games.
@@ -200,7 +213,7 @@ Implement the user stories.
 
    ![Game Play](assets/images/readmeimages/startgame.png)
 
-## User Story 2
+### User Story 2
 
  This game has one level, you will race against the clock to find all the matches.
 
@@ -210,38 +223,30 @@ Implement the user stories.
 2. The game will congratulate you if you win.
    The game will also have a Hard Luck message at the end if you do not win.
 
+### User Story 3
 
-## User Story 3
-
-### This game can be played by an any age, but is designed to be used by a young child.
+This game can be played by an any age, but is designed to be used by a young child.
 
 1. The game is made with bright coloured fun images to interest a young child.
 2. the game is for short game play, to keep the interest of a younger child.
 3. I would recommend this game for 3 - 6 year olds.
 
+### User Story 4
 
-## User Story 4
-
-### This game would be suitable to play with a young child.
+This game would be suitable to play with a young child.
 
 1. The game is easy to navigate.
 2. It is designed for short game play to keep interest.
 3. This game is great for promoting memory skills.  
    It also encourages developmental skills such as hand eye co-ordination.
 
+## Debugging
 
 
-With these user stories in mind, I put together some wireframes.  I included all the main requirements and issues that were raised from my user story research.
+Debugging HTML in index.html
 
 
-
-##  Debugging
-
-
-###     Debugging HTML in index.html
-
-
-## Dropdown menu not working 
+### Dropdown menu not working 
 
 I had added some extra bootstrap links to the bottom of the index.html page.  They were unneccessary as I had already add the bundle.  
 This caused some doubling up.
@@ -254,7 +259,7 @@ With some help from Kevin in tutor support, I removed the unneccesary links
 ![bootstrap solution](assets/images/debuggingimages/bootstrapsolution.png)
 
 
-## Gameboard was misaligning
+### Gameboard was misaligning
 
 I had a positioning issue with my gameboard.  The cards were aligning too far to the left.
 I adjusted my display in css to relative instead of absolute.  
@@ -263,9 +268,38 @@ This helped with the positioning.
 ![positioning issue](assets/images/debuggingimages/positioningissue.png)
 ![positioning solution](assets/images/debuggingimages/positioningsolution.png)
 
-## Level choices not displaying inline across the width of the screen
+### Level choices not displaying inline across the width of the screen
 
-## Glyphicon not appearing in button
+Solved this issued with some 
+
+```<section class ="level-options">
+      <!-- level 1 Easy --> 
+      <div class ="level-option1">
+          <img src="assets/images/nemoglasses.jpg" class="card-img-top" alt="fish1">
+          <h5 class="card-title">Nemo - Level 1</h5>
+          <button data-type="submit" class="btn btn-primary play-btn" onclick="window.location.reload()">Play</a>
+      </div>
+            
+      <!-- level 2 Medium -->
+      <div class="level-option2">
+          <img src="assets/images/turtle.gif" class="card-img-top" alt="fish2">
+          <h5 class="card-title">Turtle - Level 2</h5>
+          <button data-type="submit" class="btn btn-primary play-btn" onclick="window.location.reload()">Play</a>
+      </div>
+            
+      <!-- level 3 Difficult -->
+      <div class="level-option3">
+          <img src="assets/images/shark.gif" class="card-img-top" alt="fish3">
+          <h5 class="card-title">Shark - Level 3</h5>
+          <button data-type="submit" class="btn btn-primary play-btn" onclick="window.location.reload()">Play</a>
+      </div>
+    </section>
+
+```
+
+Decided later to delete this section due to lack of knowledge on JS for difficulty levels.
+
+### Glyphicon not appearing in button
 
 ![404 button error](assets/images/debuggingimages/glyphicon_error.png)
 
@@ -278,49 +312,28 @@ Therefore I changed to Font Awesome.
 
 ![Solution Image](assets/images/debuggingimages/font_awesome_image.png)
 
-## Jellyfish cards were matching but was not been recognised as a match.
+Jellyfish cards were matching but was not been recognised as a match.
 
 Solution - The alt tag descriptions were not equal.
 
 Updated the alt tag on the jellyfish img to match.
 
 
-### Debugging HTML in contact.html
-
-
-## Debugging on the 404.html
+### Debugging on the 404.html
 
 Image was appearing off center on the top of the page.
 
 To fix this, I edited the css in the style.css file.
 
-```
-.fishy {
+``` .fishy {
     width: 200px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-
 ```
 
+## End of Testing Section
 
-
-
-
-
-
-
-
-
-
-
-![Mobile home page](assets/images/mobilehomepage.png)
-
-
-
-## Unfixed bugs.
-
-Mention any unfixed bugs here and why they were not fixed.  
-Time would be a big variable to consider here it is not a valid reason to leave a bug unfixed.
+[Return to Table of Contents](#table-of-contents)
