@@ -201,6 +201,34 @@ As a user, I would like to challenge myself and see a record of my previous scor
 As a user, I would like to play this game with my son/daughter.  I would like them to be able to engage with the game.
 I want the game to help with their memory skills.
 
+
+As a first time user I would expect
+
+•	A pause button
+•	A choice of cards
+•	Good Graphics
+•	A timer
+•	Score counter
+
+As a returning user I would expect 
+
+•	The cards to be reshuffled every new game.
+•	My name to be still on the leaderboard
+•	 A log in option to create a user profile. 
+•	Updated content.
+•	A bonus section for registerd customers only.
+
+As a designer I would expect
+
+•	All buttons to be working
+•	All links to be active
+•	To be able to navigate through the site with ease
+•	To have a 404 page to return users to the home page.
+•	Striking colors to engage the user
+•	Good sounds to enhance the game throughout play.
+
+Ideas -  restart the level by pulling down on the screen or a refresh button.
+
 With these user stories in mind, I put together some wireframes.  I included all the primary requirements and issues that were raised from my user story research.
 
 
@@ -313,16 +341,44 @@ Code used throughout this project was learned and implemented from the [Code Ins
     
 ### I have used [hover.css](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css).
 
+Code used and adapted from You Tube tutorials by Web Dev Simplified and PORTexe    
+
+```overlays.forEach(overlay => {
+    overlay.addEventListener('click', () => {
+        overlay.classList.remove('visible');
+        flipCard();
+        });
+    });
+
+```
+
+I used this code to allow the opening overlay to disappear from view when clicked.
+
 ### Images
 
 Images for this game were located in the clipart-library
 
 [Card Images](http://clipart-library.com/nemo.html)
 
+assets/images/findingnemo.jpg
+assets/images/fishy.gif
+assets/images/jellyfish.gif
+assets/images/mantis.gif
+assets/images/nemo.jpg
+assets/images/nemoanddory.jpg
+assets/images/seagull.jpg
+assets/images/shark.gif
+assets/images/starfish.jpeg
+assets/images/turtle.gif
+
 JavaScript code was coded with the help of 
 
+YouTube 
+[matching game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves)
+
 YouTube
-https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
+[freeCodeCamp.org - Memory Card Game - Javascript Tutorial](https://marina-ferreira.gihub.io/memory-game/)
+
 
 
 ## Further References
