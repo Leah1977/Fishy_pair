@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  /* add border and padding to the element without changing the size */
+    box-sizing: border-box;  /* adds border and padding to the element without changing the size */
 }
 
 body {
@@ -53,11 +53,6 @@ a:hover {
     color: blue;
  }
 
- /* .game-title {
-     background-color: cornflowerblue;
-     width: 50%;
-
- } */
 
  /* ------------------------------------------------------ dropdown */
 
@@ -105,72 +100,8 @@ a.play-btn {
      color: aqua;
  }
 
- /* ------------------------------------------------------ background-image*/
 
- @media screen and (max-width: 1393px) {
- #hero-image {
-     margin: 0 auto;
-     height: 1100px;
-     width: 100%;
- }
 
- #hero-image {
-     animation-name: hero-zoom;
-     animation-duration: 5s;
-     animation-fill-mode: forwards;
-     background: no-repeat center center;
-     height: 760px;
-     width: 100%;
- }
-
- 
- }
-/* ---------------------------------------------Level Choices */
-
-.level-container {
-    width:fit-content;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-
-.card-img-top {
-    width: 100%;
-    height: 150px;
-    margin: 0 auto;    
-}
-
-.level-option1,
-.level-option2,
-.level-option3 {
-    padding: 5px;
-    width: 30%;
-    height: 230px;
-    float: left;
-    border-radius: 5px;
-    border: 4px solid #555555;
-    margin: 1.5%;
-    
-    
- }
-
-.card-title {
-    text-align: center;
-    font-size: medium;
-}
-
-.btn {
-
-     font-family: "Rubik", sans-serif;
-     text-transform: capitalize;
-     letter-spacing: 1.2px;
-     color: white;
-   
- }
-
-.btn:focus {
-    outline: none;
-}
 
 /* ---------------------------------------------Game Cards */
 
@@ -182,7 +113,7 @@ a.play-btn {
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    margin: 60px auto;
+    margin: auto;
     justify-content: center;
     padding: 10px;
     background:rgb(114, 24, 199);
@@ -203,7 +134,7 @@ a.play-btn {
     align-items: center;
     overflow: hidden;
     background-color: aquamarine;
-    backface-visibility: hidden;
+    backface-visibility: hidden;  /* we don't want to see the mirror image of the card */
     cursor: pointer;
     box-shadow: 5px 2px 25px rgba(46, 61, 73, 0.5);
 }

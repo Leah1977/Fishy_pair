@@ -13,19 +13,24 @@ document.addEventListener("DOMContentLoaded", function() {
 	let timeInterval;
 	let totalMatchedMove = 0;
 	let overlays = Array.from(document.getElementsByClassName("overlay-text"));
+	
 	// Start Game with first card choice.
 	// code used and adapted from You Tube tutorials by Web Dev Simplified 
 	// and PORTexe    
 	overlays.forEach(overlay => {
 		overlay.addEventListener("click", () => {
 			overlay.classList.remove("visible");
-			flipCard();
+			
 		});
 	});
+
+	cards.forEach(card => card.addEventListener("click", flipCard));
 
 	function flipCard() {
 		updateMoves();
 		count === gameTime && startTimer();
+		console.log("clicked card");
+		console.log(this);
 		// code used and adapted [freeCodeCamp.org - Memory Card Game -  
         // Javascript 
 		// Tutorial](https://marina-ferreira.gihub.io/memory-game/)
@@ -42,8 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
 			return;
 		}
 		//second card clicked
+		hasFlippedCard = false;
 		secondCard = this;
 		checkIfMatch();
+
+		console.log({firstCard, secondCard});
+		console.log(firstCard.dataset.image);
 	}
 	// 3. Check for match.
 	function checkIfMatch() {
@@ -78,14 +87,14 @@ document.addEventListener("DOMContentLoaded", function() {
 		[hasFlippedCard, lockGameboard] = [false, false];
 		[firstCard, secondCard] = [null, null];
 	}
+	// 
 	(function shuffle() {
 		cards.forEach(card => {
 			let randomPlace = Math.floor(Math.random() * 12);
 			card.style.order = randomPlace;
 		});
-	})();
-	cards.forEach(card => card.addEventListener("click", flipCard));
-	// flip the card when clicked
+	})();  //extra parantheses allows the function to be executed immediately after definition
+	
 	function resetGameBoard() {
 		movesElement.innerHTML = 0;
 		totalMatchedMove = 0;
