@@ -82,7 +82,7 @@ Tested the site using Lighthouse
 Tested the site for mobile-friendly usage
 
 [Mobile-Friendly Test-Google Services](https://search.google.com/test/mobile-friendly)
-![Mobile friendly approved]assets/images/readmeimages/mobilefriendly.png)
+![Mobile friendly approved](assets/images/readmeimages/mobilefriendly.png)
 
 ## Project Testing
 
