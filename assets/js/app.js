@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				timeInterval = null;
 				if(totalMatchedMove === 6) {
 					alert("Congratulations You Won!!");
-					clearInterval(timeInterval);
+					
 				} else {
 					alert("Game Over!! Better Luck Next Time!");
 				}
