@@ -360,16 +360,21 @@ Images for this game were located in the clipart-library
 
 [Card Images](http://clipart-library.com/nemo.html)
 
-assets/images/findingnemo.jpg
-assets/images/fishy.gif
-assets/images/jellyfish.gif
-assets/images/mantis.gif
-assets/images/nemo.jpg
-assets/images/nemoanddory.jpg
-assets/images/seagull.jpg
-assets/images/shark.gif
-assets/images/starfish.jpeg
-assets/images/turtle.gif
+- assets/images/findingnemo.jpg
+- assets/images/fishy.gif
+- assets/images/jellyfish.gif
+- assets/images/mantis.gif
+- assets/images/nemo.jpg
+- assets/images/nemoanddory.jpg
+- assets/images/seagull.jpg
+- assets/images/shark.gif
+- assets/images/starfish.jpeg
+- assets/images/turtle.gif
+
+Fish Logo/Card Picture made with [Canva](www.canva.com)
+
+- assets/images/fishypairslogo.png
+- assets/images/fishpairscardname.png
 
 JavaScript code was coded with the help of 
 
