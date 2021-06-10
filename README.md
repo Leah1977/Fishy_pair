@@ -39,8 +39,8 @@ I have created a mobile-first project.
 FISHY PAIRS
 
 My project is all about having fun while reinforcing some early learning skills to improve the cognitive development of a young child.
-Fish pairs is a memory game.  It is aimed to encourage children to improve their memory recall while having fun.
-The game will increase in difficulty as the child progresses through the levels.
+Fishy pairs is a memory game.  It is aimed to encourage children to improve their memory recall while having fun.
+
 
 ### What value does it provide to its users
 This game encourages the cognitive development of young children.
